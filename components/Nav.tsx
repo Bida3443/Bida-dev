@@ -19,7 +19,7 @@ const Links = [
     },
     {
         name: "skills & Services",
-        path: "/skills",
+        path: "/service",
     },
     {
         name: "Portfolio",
