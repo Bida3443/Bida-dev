@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bida Portfolio",
+  title: "BiDa Portfolio",
   description: "This Is My Portfolio Website",
 };
 
