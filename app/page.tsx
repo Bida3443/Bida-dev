@@ -2,11 +2,8 @@
 
 export default function Home() {
   return (
-    <div className="text-white">homepage
+    <div>homepage
     </div>
     
   );
 }
-
-
-      
