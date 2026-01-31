@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <div>homepage
+    <div className="text-white">homepage
     </div>
     
   );

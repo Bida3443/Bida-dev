@@ -120,6 +120,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply font-prmary bg-primary text-white ;
+    @apply bg-background bg-black text-foreground;
   }
 }
