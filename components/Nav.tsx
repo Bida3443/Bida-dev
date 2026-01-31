@@ -15,7 +15,7 @@ const Links = [
     },
     {
         name: "my-story",
-        path: "/my-story",
+        path: "/story",
     },
     {
         name: "skills & Services",
@@ -51,7 +51,6 @@ export default function Nav () {
                 );
             })}
 
-       
         </nav>
     )
 };
