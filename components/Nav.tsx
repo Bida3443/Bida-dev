@@ -37,7 +37,6 @@ const Links = [
 
 
 
-
 export default function Nav () {
     const pathname = usePathname();
     return (
