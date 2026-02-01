@@ -20,7 +20,7 @@ export default function header () {
                 <div className="hidden xl:flex items-center gap-8">
                     <Nav/>
                     <Link href="/contact">
-                    <button>Hire Me</button>
+                    <Button className="cursor-pointer hover:bg-blue-700">Hire Me</Button>
                     </Link>
                 </div>
 
