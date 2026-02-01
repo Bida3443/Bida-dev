@@ -2,6 +2,7 @@ import Link from "next/link"
 import {Button} from "./ui/button";
 
 import Nav from "./Nav";
+import MobileNav from "./MobileNav";
 
 
 
@@ -26,6 +27,7 @@ export default function header () {
 
                 {/* Mobile Nav */}
                 <div className="xl:hidden">mobile nav</div>
+                <MobileNav/>
             </div>
         </header>
     )
