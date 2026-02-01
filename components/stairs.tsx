@@ -48,5 +48,4 @@ const Stairs = () => {
 };
     
 
-
 export default Stairs;

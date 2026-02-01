@@ -1,28 +1,10 @@
-// "use client"
-
-
-// import { AnimatePresence } from "framer-motion";
-// import { Children } from "react";
-
-
- 
-
-//     const PageTransition = ({Children}) => {
-//         return<AnimatePresence>
-//         {Children}
-//     </AnimatePresence>;
-
-//     };
-// export default PageTransition;
-    
-        
-    
+   
 "use client";
 
-import { AnimatePresence} from "framer-motion";
+import { AnimatePresence, motion} from "framer-motion";
 import { ReactNode } from "react";
 import { usePathname } from "next/navigation";
-import {motion} from "framer-motion"
+
 
 type Props = {
   children: ReactNode;
@@ -31,17 +13,21 @@ type Props = {
 const PageTransition = ({ children }: Props) => {
     const pathname = usePathname();
   return (
+
+    <>
+    {children}
     <AnimatePresence mode="wait">
         <div key={pathname}>
             <motion.div 
             initial={{opacity: 1}} 
             animate={{opacity: 0, transition: {delay: 1, duration: 0.4, ease: "easeInOut"},}}
             className ="h-screen w-screen fixed bg-primary top-0 pointer-events-none">
-                {children}
+                
             </motion.div>
         </div>
       
     </AnimatePresence>
+    </>
   );
 };
 
