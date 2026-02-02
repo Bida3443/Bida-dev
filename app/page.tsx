@@ -2,6 +2,8 @@
 import {Button} from "@/components/ui/button";
 import {FiDownload} from "react-icons/fi";
 import Social from "@/components/social";
+import HeroTitle from "@/components/HeroTitle";
+import Photo from "@/components/Photo";
 
 export default function Home() {
   return (
@@ -11,8 +13,10 @@ export default function Home() {
           <div className="text-center xl:text-left">
             
             <h1 className="h1 mb-6 text-blue-700 ">Idowu Alexander Bamise</h1>
-            <span className="text-xl mb-20">I'm Front end developer/designer</span>
-            <p className="max-w-125 mb-9 mt-4 text-white/80 text-justify">I excel at crafting elegant digital experience and i am proficient in various programming languages and technologies</p>
+            <span className="text-xl mb-20">
+              <HeroTitle/>
+            </span>
+            <p className=" max-w-125  mb-9 mt-4 text-white/80 text-justify">I craft elegant digital experiences as a Frontend Developer, Website Designer, and Problem Solver - prioritizing performance, accessibility, responsiveness, and clean design.</p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button 
               variant="outline"
@@ -26,7 +30,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div>photo</div>
+          <div>
+            <Photo/>
+          </div>
         </div>
       </div>
 
