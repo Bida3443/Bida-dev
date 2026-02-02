@@ -96,13 +96,13 @@ export default function Socials() {
             flex items-center justify-center
             w-10 h-10
             rounded-full
-            bg-neutral-100
+            bg-neutral-700
             transition-all duration-300
             hover:bg-blue-600"
         >
             {/* <span>{item.text}</span> */}
             <span className="w-5 h-5
-            text-neutral-700
+            text-neutral-100
             transition-colors duration-300
             group-hover:text-white
             [&>svg]:w-full [&>svg]:h-full
