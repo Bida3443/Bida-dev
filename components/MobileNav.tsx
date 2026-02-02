@@ -113,10 +113,10 @@ const MobileNav = () => {
           </VisuallyHidden>
         </SheetHeader>
 
-        <div className="mt-32 mb-40 text-center text-2xl">
+        <div className="mt-8 mb-15 text-center text-2xl">
           <Link href="/">
             <h1 className="text-4xl font-semibold">
-              BiDa <span className="text-blue-700">.</span>
+              BiDa<span className="text-blue-700">.</span>
             </h1>
           </Link>
         </div>
