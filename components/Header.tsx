@@ -26,7 +26,7 @@ export default function header () {
                 </div>
 
                 {/* Mobile Nav */}
-                <div className="xl:hidden">mobile nav</div>
+                {/* <div className="xl:hidden">mobile nav</div> */}
                 <MobileNav/>
             </div>
         </header>
