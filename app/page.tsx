@@ -1,7 +1,7 @@
 // import Image from "next/image";
 import {Button} from "@/components/ui/button";
 import {FiDownload} from "react-icons/fi";
-import social from "@/components/social";
+import Social from "@/components/social";
 
 export default function Home() {
   return (
@@ -21,7 +21,9 @@ export default function Home() {
                 <span>Download CV</span>
                 <FiDownload className="text-xl"/>
               </Button>
-              <div className="mb-8 xl:mb-0">socials</div>
+              <div className="mb-8 xl:mb-0">
+                <Social/>
+              </div>
             </div>
           </div>
           <div>photo</div>
