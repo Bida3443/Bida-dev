@@ -16,7 +16,7 @@ export default function Home() {
             <span className="text-xl mb-20">
               <HeroTitle/>
             </span>
-            <p className=" max-w-125  mb-9 mt-4 text-white/80 text-justify">I craft elegant digital experiences as a Frontend Developer, Website Designer, and Problem Solver - prioritizing performance, accessibility, responsiveness, and clean design.</p>
+            <p className=" max-w-125 mb-9 mt-4 text-white/80 lg:text-justify justify-center">I craft elegant digital experiences as a Frontend Developer, Website Designer, and Problem Solver - prioritizing performance, accessibility, responsiveness, and clean design.</p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button 
               variant="outline"
