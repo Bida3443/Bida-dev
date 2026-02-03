@@ -7,7 +7,7 @@ import Bida from "../public/Bidaa.png";
 
 export default function Photo () {
     return(
-        <div className="w-full h-full relative mr-10">
+        <div className="w-full h-full relative">
             <motion.div
              initial={{opacity: 0}} 
              animate={{opacity: 1,
