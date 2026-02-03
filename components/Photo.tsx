@@ -2,7 +2,7 @@
 
 import {delay, motion} from "framer-motion"
 import Image from "next/image"
-import Bida from "../public/Bidaa.png";
+import Bida from "../public/pac.png";
 
 
 export default function Photo () {
@@ -29,22 +29,47 @@ export default function Photo () {
                 </div>
             </motion.div>
 
-            <motion.svg className="lg:w-100 w-70 lg:h-100 h-70" fill="transparent"
-            viewBox="0 0 506 506"
-            xmlns="http://www.w3.org/2000/svg">
-                <motion.circle  cx="253" cy="253" r="250" stroke="#1D4ED8" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"
-                initial={{strokeDasharray: "24 10 0 0"}}
-                animate={{
-                    strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
-                    rotate:[120, 360],
-                }}
-                transition={{
-                    duration:20,
-                    repeat: Infinity,
-                    repeatType:"reverse",
-                }}
-                />
-            </motion.svg>
+            <motion.svg
+  className="lg:w-100 w-70 lg:h-100 h-70"
+  fill="transparent"
+  viewBox="0 0 506 506"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  {/* Static square border */}
+  <rect
+    x="3"
+    y="3"
+    width="500"
+    height="500"
+    rx="20" // change to 20 for rounded square
+    stroke="#E5E7EB"
+    strokeWidth="4"
+  />
+
+  {/* Rotating dashed border */}
+  <motion.rect
+    x="3"
+    y="3"
+    width="500"
+    height="600"
+    rx="0"
+    stroke="#1D4ED8"
+    strokeWidth="4"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    fill="transparent"
+    strokeDasharray="40 20"
+    animate={{
+      strokeDashoffset: [0, 600],
+    }}
+    transition={{
+      duration: 10,
+      repeat: Infinity,
+      ease: "linear",
+    }}
+  />
+</motion.svg>
+
             
         </div>
     )
