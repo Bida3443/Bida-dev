@@ -102,7 +102,7 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger className="flex items-center justify-center md:hidden">
-        <CiMenuFries className="text-[32px] text-blue-700" />
+        <CiMenuFries className="text-[32px] text-blue-500" />
       </SheetTrigger>
 
       <SheetContent className="flex flex-col">
@@ -116,7 +116,7 @@ const MobileNav = () => {
         <div className="mt-8 mb-15 text-center text-2xl">
           <Link href="/">
             <h1 className="text-4xl font-semibold">
-              BiDa<span className="text-blue-700">.</span>
+              BiDa<span className="text-blue-500">.</span>
             </h1>
           </Link>
         </div>
