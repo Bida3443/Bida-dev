@@ -24,7 +24,7 @@ const social = [
             </svg>
         ),
         text: "Facebook",
-        Link:"#"
+        Link:"https://www.facebook.com/share/1DB6EroaU8/"
     },
      {
         svg: (
@@ -36,7 +36,7 @@ const social = [
             </svg>
         ),
         text: "Twitter",
-        Link:"#"
+        Link:"https://x.com/Bida_4"
     },
     {
         svg: (
@@ -48,7 +48,7 @@ const social = [
             </svg>
         ),
         text: "Instagram",
-        Link:"#"
+        Link:"https://www.instagram.com/bamiseidowualexander?igsh=eHZ4aDl2MnU5OWhp"
     },
      {
         svg: (
@@ -62,7 +62,7 @@ const social = [
 
         ),
         text: "Linkedln",
-        Link:"#"
+        Link:"https://www.linkedin.com/in/idowu-alexander-bamise-402521244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
      {
         svg: (
@@ -74,9 +74,8 @@ const social = [
             </svg>
         ),
         text: "TikTok",
-        Link:"#"
+        Link:"https://www.tiktok.com/@bamiseidowualexan?_r=1&_t=ZS-93byTKN8MiN"
     },
-
 
 ]
 
