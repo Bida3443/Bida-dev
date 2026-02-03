@@ -81,7 +81,6 @@ const social = [
 
 
 
-
 export default function Socials() {
   return (
     <div className="flex gap-4">
