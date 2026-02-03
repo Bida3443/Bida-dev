@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex flex-col xl:flex-row md:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           <div className="text-center xl:text-left order-2 xl:order-0">
             
-            <h1 className="h1 mb-6 text-blue-700 ">Idowu Alexander Bamise</h1>
+            <h1 className="lg:h1 h2 mb-6 text-blue-700 ">Idowu Alexander Bamise</h1>
             <span className="text-xl mb-20">
               <HeroTitle/>
             </span>
