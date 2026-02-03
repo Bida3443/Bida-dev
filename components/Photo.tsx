@@ -14,7 +14,7 @@ export default function Photo () {
              transition:
              {delay: 2, duration: 0.4, ease: "easeIn"},
         }}>
-                <div className="lg:w-100 w-70 lg:h-100 h-70 mix-blend-lighten absolute">
+                <div className="lg:w-120 w-80 lg:h-120 h-80 mix-blend-lighten absolute">
                     <Image
             src={Bida}
             // fill
@@ -30,7 +30,7 @@ export default function Photo () {
             </motion.div>
 
             <motion.svg
-  className="lg:w-100 w-70 lg:h-100 h-70"
+  className="lg:w-120 w-80 lg:h-120 h-80"
   fill="transparent"
   viewBox="0 0 506 506"
   xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ export default function Photo () {
     y="3"
     width="500"
     height="600"
-    rx="0"
+    rx="20"
     stroke="#1D4ED8"
     strokeWidth="4"
     strokeLinecap="round"
