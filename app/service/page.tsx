@@ -40,14 +40,16 @@ export default function Service ()  {
                     {Services.map((Services, index) =>{
                         return <div key={index} className="flex-1 flex flex-col justify-center gap-6 group"> 
                         <div className="w-full flex justify-between items-center">
-                            <div className="text-5xl font-extrabold text-outline text-transparent hover:outline-1 hover:outline-blue-600 transition-all duration-500">
+                            <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-blue-700  transition-all duration-500">
                             {Services.num}</div>
-                            <Link href="Services.href" className="w-17.5 h-17.5 rounded-full bg-white group-hover:to-blue-500 transition-all duration-500 flex justify-center items-center hover:-rotate-45">
+
+                            <Link href="Services.href" className="w-17.5 h-17.5 rounded-full bg-white group-hover:bg-blue-700 group-hover:blue-500 transition-all duration-500 flex justify-center items-center hover:-rotate-45">
+
                             <BsArrowDownRight className="text-primary text-3xl"/>
                             </Link>
                         </div>
-                        <h1>{Services.title}</h1>
-                        <p>{Services.Descripton}</p>
+                        <h1 className="text-[42px] font-bold leading-none text-white group-hover:text-blue-700 transition-all duration-500">{Services.title}</h1>
+                        <p className="text-white/60">{Services.Descripton}</p>
                         <div className="border-b border-white/20 w-full"></div>
                         </div>
                     })}
@@ -56,4 +58,4 @@ export default function Service ()  {
             <div></div>
         </section>
     )
-}
+};
