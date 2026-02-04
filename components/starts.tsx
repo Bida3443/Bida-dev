@@ -37,7 +37,7 @@ export default function Starts(){
                         className="text-4xl xl:text-6xl font-extrabold"/>
                         <p  className={`${
                             item.text.length < 15 ? "max-w-25" : "max-w-37.5"
-                        } leading-snug text-white/80`}
+                        } leading-snug text-white/80 lg:text-[15px] text-[10px]`}
                         >
                             {item.text}</p>
                     </div>
