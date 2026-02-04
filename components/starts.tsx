@@ -1,6 +1,7 @@
 "use client"
 
 import CountUp from "react-countup";
+import { text } from "stream/consumers";
 // import { text } from "stream/consumers";
 
 const Stat = [
@@ -13,7 +14,7 @@ const Stat = [
 },
 {
     num: 8,
-    text: "Technologiesmastered",
+    text: "Technologies Mastered",
 },
 {
     num:200,
@@ -25,7 +26,7 @@ export default function Starts(){
     return(
         <section>
             <div className="container mx-auto">
-                <div>
+                <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none">
                    {Stat.map((item, index)=> {
                     return <div key={index} className="flex-1 flex gap-4 items-center justify-center xl:justify-start">
                         <CountUp 
@@ -34,7 +35,7 @@ export default function Starts(){
                         delay={2}
                         
                         className="text-4xl xl:text-6xl font-extrabold"/>
-                        <p className={`${
+                        <p  className={`${
                             item.text.length < 15 ? "max-w-25" : "max-w-37.5"
                         } leading-snug text-white/80`}
                         >
