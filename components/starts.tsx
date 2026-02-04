@@ -1,7 +1,7 @@
 "use client"
 
 import CountUp from "react-countup";
-import { text } from "stream/consumers";
+// import { text } from "stream/consumers";
 // import { text } from "stream/consumers";
 
 const Stat = [
@@ -17,14 +17,14 @@ const Stat = [
     text: "Technologies Mastered",
 },
 {
-    num:200,
-    text: "code commits",
+    num:253,
+    text: "Code Commits",
 },
 ]
 
 export default function Starts(){
     return(
-        <section>
+        <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
             <div className="container mx-auto">
                 <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none">
                    {Stat.map((item, index)=> {

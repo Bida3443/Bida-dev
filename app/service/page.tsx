@@ -1,6 +1,53 @@
+"use client"
+
+import {BsArrowDownRight} from "react-icons/bs";
+import Link from "next/link";
+import {motion} from "framer-motion";
+
+const Services = [
+    {
+        num: 1,
+        title: "Landing Page",
+        Descripton:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, obcaecati inventore earum dolores tempore, eligendi molestiae vitae ratione quia excepturi porro saepe ut corporis eaque tempora quaerat minus voluptate praesentium"
+    },
+    {
+        num: 2,
+        title: "web Development & API",
+        Descripton:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, obcaecati inventore earum dolores tempore, eligendi molestiae vitae ratione quia excepturi porro saepe ut corporis eaque tempora quaerat minus voluptate praesentium"
+    },
+    {
+        num: 3,
+        title: "web Development",
+        Descripton:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, obcaecati inventore earum dolores tempore, eligendi molestiae vitae ratione quia excepturi porro saepe ut corporis eaque tempora quaerat minus voluptate praesentium"
+    },
+]
+
 export default function Service ()  {
 
     return(
-        <div>Service</div>
+        <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:p-0">
+            <div className="container max-auto">
+                <motion.div 
+                initial= {{opacity:0}} 
+                animate={{opacity: 1,  transition: {delay: 2.4, duration: 0.4, ease: "easeIn"}}}
+                className="grid grid-cols-1 md:grid-cols-2 gap-15"
+                >
+                    {Services.map((Services, index) =>{
+                        return <div key={index}> 
+                        <div>
+                            <div>{Services.num}</div>
+                            <Link href="Services.href">
+                            <BsArrowDownRight/>
+                            </Link>
+                        </div>
+                        <h1>{Services.title}</h1>
+                        <p>{Services.Descripton}</p>
+                        <div className="border-b border-white/20 w-full"></div>
+                        </div>
+                    })}
+                </motion.div>
+            </div>
+            <div></div>
+        </section>
     )
 }
