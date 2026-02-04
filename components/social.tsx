@@ -76,9 +76,7 @@ const social = [
         text: "TikTok",
         Link:"https://www.tiktok.com/@bamiseidowualexan?_r=1&_t=ZS-93byTKN8MiN"
     },
-
 ]
-
 
 
 export default function Socials() {
