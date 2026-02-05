@@ -7,6 +7,12 @@ import {FaHtml5,FaCss3, FaJs, FaReact, FaFigma, FaNodeJs,} from "react-icons/fa"
 
 import {SiTailwindcss, SiNextdotjs} from "react-icons/si";
 
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui//tabs";
+import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@radix-ui/react-tooltip";
+
+import { ScrollArea } from '@/components/ui/scroll-area';
+import {motion} from "framer-motion";
+
 const about = {
     title:"About me",
     Description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, iste impedit! Commodi repellat magnam et eos in quam placeat, unde maxime? Quasi vel similique, ex illo nisi mollitia. Quos, doloribus.",
@@ -77,7 +83,7 @@ const education = {
     items: [
         {
             Institution: "Federal University Of Technology Akure",
-            Degree: "Forestry And Wood Technology",
+            Degree: "Bachelor In Forestry And Wood Technology",
             Duration: "2017-2024",
         },
          {
@@ -92,12 +98,56 @@ const education = {
         },
     ]
 
+};
+
+const Skills = {
+    title: "My Skills",
+    Description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, iste impedit! Commodi repellat magnam et eos in quam placeat, unde maxime? Quasi vel similique, ex illo nisi mollitia. Quos, doloribus.",
+    Skilllist: [
+        {
+            icon: <FaHtml5/>,
+            name: "html-5",
+            Duration: "2017-2024",
+        },
+          {
+            icon: <FaCss3/>,
+            name: "css-3", 
+        },
+        {
+            icon: <FaJs/>,
+            name: "javascript", 
+        },
+        {
+            icon: <SiNextdotjs/>,
+            name: "Next.js", 
+        },
+        {
+            icon: <FaReact/>,
+            name: "React.js", 
+        },
+        {
+            icon: <SiTailwindcss/>,
+            name: "tailwind.css", 
+        },
+        {
+            icon: <FaFigma/>,
+            name: "Figma", 
+        },
+        
+    ]
+
 }
 
 
 export default function Resume ()  {
 
     return(
-        <div>My Resume</div>
+        <motion.div
+        initial={{opacity: 0}}
+        animate={{opacity: 1,
+        transition: {delay: 2.4, duration: 0.4, ease:"easeIn"},
+        }}
+        className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
+        >My Resume</motion.div>
     )
 }
