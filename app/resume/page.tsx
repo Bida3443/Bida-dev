@@ -164,6 +164,8 @@ export default function Resume ()  {
 
                         <TabsContent value="Experience" className="w-full">Experience</TabsContent>
                         <TabsContent value="Education" className="w-full">Education</TabsContent>
+                        <TabsContent value="About Me" className="w-full">About Me</TabsContent>
+                        <TabsContent value="Skills" className="w-full">Skills</TabsContent>
                         
                     </div>
                 </Tabs>
