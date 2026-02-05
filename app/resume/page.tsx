@@ -148,6 +148,26 @@ export default function Resume ()  {
         transition: {delay: 2.4, duration: 0.4, ease:"easeIn"},
         }}
         className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
-        >My Resume</motion.div>
+        
+        >
+            <div className="container mx-auto">
+                <Tabs 
+                    defaultValue="experience"
+                    className="flex flex-col xl:flex-row gap-15">
+                    <TabsList className="flex flex-col w-full max-w-95 mx-auto xl:mx-0 gap-6">
+                        <TabsTrigger value={"Experience"}>Experience</TabsTrigger>
+                        <TabsTrigger value={"Education"}>Education</TabsTrigger>
+                        <TabsTrigger value={"About Me"}>About Me</TabsTrigger>
+                        <TabsTrigger value={"Skills"}>Skills</TabsTrigger>
+                    </TabsList>
+                    <div className="min-h-[70vh] w-full">
+
+                        <TabsContent value="Experience" className="w-full">Experience</TabsContent>
+                        <TabsContent value="Education" className="w-full">Education</TabsContent>
+                        
+                    </div>
+                </Tabs>
+            </div>
+        My Resume</motion.div>
     )
 }
