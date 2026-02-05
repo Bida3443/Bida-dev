@@ -46,6 +46,7 @@ export default function Service ()  {
                             <Link href="Services.href" className="w-17.5 h-17.5 rounded-full bg-white group-hover:bg-blue-700 group-hover:blue-500 transition-all duration-500 flex justify-center items-center hover:-rotate-45">
 
                             <BsArrowDownRight className="text-primary text-3xl"/>
+                            
                             </Link>
                         </div>
                         <h1 className="text-[42px] font-bold leading-none text-white group-hover:text-blue-700 transition-all duration-500">{Services.title}</h1>
