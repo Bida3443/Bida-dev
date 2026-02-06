@@ -202,7 +202,20 @@ export default function Resume ()  {
                                 </ScrollArea>
                             </div>
                         </TabsContent>
-                        <TabsContent value="About Me" className="w-full">About Me</TabsContent>
+                        <TabsContent value="About Me" className="w-full text-center lg:text-left">
+                            <div className="flex flex-col gap-7.5">
+                                <h3 className="text-4xl font-bold">{about.title}</h3>
+                                <p className="max-w-150 tetx-white/60 mx-auto lg:mx-0">{about.Description}</p>
+                                <ul  className="grid grid-cols-1 lg:grid-cols-2 gap-y-6 max-w-155 mx-auto xl:mx-0 ">
+                                    {about.info.map((item,index)=>{
+                                        return <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
+                                            <span className="text-white/60">{item.fieldName}</span>
+                                            <span className="text-xl">{item.fieldValue}</span>
+                                        </li>
+                                    })}
+                                </ul>
+                            </div>
+                        </TabsContent>
                         <TabsContent value="Skills" className="w-full h-full">
                             <div className="flex flex-col gap-7.5">
                                 <div className="flex flex-col gap-7.5 text-center lg:text-left">
@@ -232,27 +245,6 @@ export default function Resume ()  {
                     </div>  
                 </Tabs>
  
-
- {/* <Tabs defaultValue="experience" className="w-full">
-  <div className="flex flex-col lg:flex-row gap-6">
-    
-    <TabsList className="flex flex-col w-full lg:w-70 gap-4">
-      <TabsTrigger value="experience">Experience</TabsTrigger>
-      <TabsTrigger value="education">Education</TabsTrigger>
-      <TabsTrigger value="about">About Me</TabsTrigger>
-      <TabsTrigger value="skills">Skills</TabsTrigger>
-    </TabsList>
-
-    <div className="w-full">
-      <TabsContent value="experience">Experience</TabsContent>
-      <TabsContent value="education">Education</TabsContent>
-      <TabsContent value="about">About Me</TabsContent>
-      <TabsContent value="skills">Skills</TabsContent>
-    </div>
-
-  </div>
-</Tabs> */}
-
 
 
             </div>
