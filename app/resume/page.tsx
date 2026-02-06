@@ -5,7 +5,7 @@ import { icons } from "lucide-react";
 import { title } from "process";
 import {FaHtml5,FaCss3, FaJs, FaReact, FaFigma, FaNodeJs,} from "react-icons/fa";
 
-import {SiTailwindcss, SiNextdotjs} from "react-icons/si";
+import {SiTailwindcss, SiNextdotjs, SiTypescript} from "react-icons/si";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui//tabs";
 import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@radix-ui/react-tooltip";
@@ -130,6 +130,10 @@ const Skills = {
             icon: <FaFigma/>,
             name: "Figma", 
         },
+        {
+            icon: <SiTypescript/>,
+            name: "Typscript", 
+        },
         
     ]
 
@@ -199,7 +203,30 @@ export default function Resume ()  {
                             </div>
                         </TabsContent>
                         <TabsContent value="About Me" className="w-full">About Me</TabsContent>
-                        <TabsContent value="Skills" className="w-full">Skills</TabsContent>
+                        <TabsContent value="Skills" className="w-full h-full">
+                            <div className="flex flex-col gap-7.5">
+                                <div className="flex flex-col gap-7.5 text-center lg:text-left">
+                                    <h3 className="text-4xl font-bold">{Skills.title}</h3>
+                                    <p className="max-w-150 text-white/60 mx-auto lg:mx-0">{Skills.Description}</p>
+                                </div>
+                                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:gap-7.5">
+                                    {Skills.Skilllist.map((skill, index) =>{
+                                        return <li key={index}>
+                                            <TooltipProvider>
+                                                <Tooltip>
+                                                    <TooltipTrigger>
+                                                        <div className="text-6xl group-hover:text-blue-500 transition-all duration-300">{skill.icon}</div>
+                                                    </TooltipTrigger>
+                                                    <TooltipContent>
+                                                        <p>{skill.name}</p>
+                                                    </TooltipContent>
+                                                </Tooltip>
+                                            </TooltipProvider>
+                                        </li>
+                                    })}
+                                </ul>
+                            </div>
+                        </TabsContent>
                     </div>
                         
                     </div>  
