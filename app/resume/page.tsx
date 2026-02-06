@@ -88,15 +88,11 @@ const education = {
             Duration: "2017-2024",
         },
          {
-            Company: "International College Of Safety And Management Professional",
-            Position: "Post graduate Diploma",
+            Institution: "International College Of Safety And Management Professional",
+            Degree: "Post graduate Diploma In Information Technology",
             Duration: "2025",
         },
-        {
-            Company: "Premium Smile Dental Clinic",
-            Position: "Website Developer In Information Technology",
-            Duration: "2025-2026",
-        },
+        
     ]
 
 };
@@ -174,7 +170,7 @@ export default function Resume ()  {
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-7.5">{experience.items.map((item, index)=>{
                                         return <li key={index} className="bg-[#232329] h-46 py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
                                             <span className="text-blue-500">{item.Duration}</span>
-                                            <h3 className="text-xl max-w-65 min-h-15 tetx-center lg:text-left">{item.Position}</h3>
+                                            <h3 className="text-lg max-w-65 min-h-15 text-center lg:text-left">{item.Position}</h3>
                                             <div className="flex items-center gap-3">
                                                 <span className="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
                                                 <p className="text-white/60">{item.Company}</p>
@@ -184,7 +180,24 @@ export default function Resume ()  {
                                 </ScrollArea>
                             </div>
                         </TabsContent>
-                        <TabsContent value="Education" className="w-full">Education</TabsContent>
+                        <TabsContent value="Education" className="w-full">
+                            <div className="flex flex-col gap-7.5 text-center lg:text-left">
+                                <h3 className="text-4xl font-bold">{education.title}</h3>
+                                <p className="max-w-150 text-white/60 mx-auto lg:mx-0">{education.Description}</p>
+                                <ScrollArea className="h-100">
+                                    <ul className="grid grid-cols-1 lg:grid-cols-2 gap-7.5">{education.items.map((item, index)=>{
+                                        return <li key={index} className="bg-[#232329] h-46 py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+                                            <span className="text-blue-500">{item.Duration}</span>
+                                            <h3 className="text-lg max-w-65 min-h-15 text-center lg:text-left">{item.Degree}</h3>
+                                            <div className="flex items-center gap-3">
+                                                <span className="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
+                                                <p className="text-white/60">{item.Institution}</p>
+                                            </div>
+                                        </li>
+                                    })}</ul>
+                                </ScrollArea>
+                            </div>
+                        </TabsContent>
                         <TabsContent value="About Me" className="w-full">About Me</TabsContent>
                         <TabsContent value="Skills" className="w-full">Skills</TabsContent>
                     </div>
