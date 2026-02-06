@@ -209,16 +209,16 @@ export default function Resume ()  {
                                     <h3 className="text-4xl font-bold">{Skills.title}</h3>
                                     <p className="max-w-150 text-white/60 mx-auto lg:mx-0">{Skills.Description}</p>
                                 </div>
-                                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:gap-7.5">
+                                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 lg:gap-7.5">
                                     {Skills.Skilllist.map((skill, index) =>{
                                         return <li key={index}>
                                             <TooltipProvider delayDuration={100}>
                                                 <Tooltip>
-                                                    <TooltipTrigger className="w-full h-37.5 bg-[#232329] rounded-xl flex justify-center items-center group-[]:">
-                                                        <div className="text-6xl group-hover:text-blue-500 transition-all duration-300">{skill.icon}</div>
+                                                    <TooltipTrigger className="w-full h-37.5 rounded-xl flex bg-[#232329] justify-center items-center group">
+                                                        <div className="text-6xl hover:text-blue-500 transition-all duration-300 cursor-pointer" >{skill.icon}</div>
                                                     </TooltipTrigger>
                                                     <TooltipContent>
-                                                        <p>{skill.name}</p>
+                                                        <p className="bg-white rounded-xl text-[#232329] p-2 capitalize">{skill.name}</p>
                                                     </TooltipContent>
                                                 </Tooltip>
                                             </TooltipProvider>
