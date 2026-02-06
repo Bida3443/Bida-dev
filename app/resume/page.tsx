@@ -60,17 +60,17 @@ const experience = {
         {
             Company: "AmondSouls",
             Position: "Freelance Website Designer",
-            Duration: "June2022-August2022",
+            Duration: "June 2022 - August 2022",
         },
          {
             Company: "Federal University Of Technology Akure",
             Position: "Website Developer",
-            Duration: "2023-2024",
+            Duration: "2023 - 2024",
         },
         {
             Company: "Premium Smile Dental Clinic",
             Position: "Website Developer",
-            Duration: "2025-2026",
+            Duration: "2025 - 2026",
         },
         
     ]
@@ -85,7 +85,7 @@ const education = {
         {
             Institution: "Federal University Of Technology Akure",
             Degree: "Bachelor In Forestry And Wood Technology",
-            Duration: "2017-2024",
+            Duration: "2017 - 2024",
         },
          {
             Institution: "International College Of Safety And Management Professional",
