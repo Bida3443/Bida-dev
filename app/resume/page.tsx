@@ -72,6 +72,7 @@ const experience = {
             Position: "Website Developer",
             Duration: "2025-2026",
         },
+        
     ]
 
 }
@@ -150,7 +151,7 @@ export default function Resume ()  {
         className="min-h-[80vh] flex items-center justify-center py-12 lg:py-0"
         
         >
-            <div className="container bg-amber-700 flex flex-col mx-auto">
+            <div className="container  flex flex-col mx-auto">
 
                  <Tabs      
                     defaultValue="Experience"
@@ -170,13 +171,13 @@ export default function Resume ()  {
                                 <h3 className="text-4xl font-bold">{experience.title}</h3>
                                 <p className="max-w-150 text-white/60 mx-auto lg:mx-0">{experience.Description}</p>
                                 <ScrollArea className="h-100">
-                                    <ul>{experience.items.map((item, index)=>{
-                                        return <li>
-                                            <span>{item.Duration}</span>
-                                            <h3>{item.Position}</h3>
-                                            <div>
-                                                <span></span>
-                                                <p>{item.Company}</p>
+                                    <ul className="grid grid-cols-1 lg:grid-cols-2 gap-7.5">{experience.items.map((item, index)=>{
+                                        return <li key={index} className="bg-[#232329] h-46 py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+                                            <span className="text-blue-500">{item.Duration}</span>
+                                            <h3 className="text-xl max-w-65 min-h-15 tetx-center lg:text-left">{item.Position}</h3>
+                                            <div className="flex items-center gap-3">
+                                                <span className="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
+                                                <p className="text-white/60">{item.Company}</p>
                                             </div>
                                         </li>
                                     })}</ul>
