@@ -212,9 +212,9 @@ export default function Resume ()  {
                                 <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:gap-7.5">
                                     {Skills.Skilllist.map((skill, index) =>{
                                         return <li key={index}>
-                                            <TooltipProvider>
+                                            <TooltipProvider delayDuration={100}>
                                                 <Tooltip>
-                                                    <TooltipTrigger>
+                                                    <TooltipTrigger className="w-full h-37.5 bg-[#232329] rounded-xl flex justify-center items-center group-[]:">
                                                         <div className="text-6xl group-hover:text-blue-500 transition-all duration-300">{skill.icon}</div>
                                                     </TooltipTrigger>
                                                     <TooltipContent>
