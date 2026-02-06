@@ -147,29 +147,74 @@ export default function Resume ()  {
         animate={{opacity: 1,
         transition: {delay: 2.4, duration: 0.4, ease:"easeIn"},
         }}
-        className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
+        className="min-h-[80vh] flex items-center justify-center py-12 lg:py-0"
         
         >
-            <div className="container mx-auto">
-                <Tabs 
-                    defaultValue="experience"
-                    className="flex flex-col xl:flex-row gap-15">
-                    <TabsList className="flex flex-col w-full max-w-95 mx-auto xl:mx-0 gap-6">
+            <div className="container bg-amber-700 flex flex-col mx-auto">
+
+                 <Tabs      
+                    defaultValue="Experience"
+                    className="flex flex-col lg:flex-row lg:items-start gap-6">
+                        
+                    <div className="flex flex-col lg:flex-row gap-10">
+                        <TabsList className="flex flex-col w-full lg:w-120 mx-auto lg:mx-0 gap-6">
                         <TabsTrigger value={"Experience"}>Experience</TabsTrigger>
                         <TabsTrigger value={"Education"}>Education</TabsTrigger>
                         <TabsTrigger value={"About Me"}>About Me</TabsTrigger>
                         <TabsTrigger value={"Skills"}>Skills</TabsTrigger>
                     </TabsList>
-                    <div className="min-h-[70vh] w-full">
+                    <div className="min-h-[70vh]  w-full">
 
-                        <TabsContent value="Experience" className="w-full">Experience</TabsContent>
+                        <TabsContent value="Experience" className="w-full">
+                            <div className="flex flex-col gap-7.5 text-center lg:text-left">
+                                <h3 className="text-4xl font-bold">{experience.title}</h3>
+                                <p className="max-w-150 text-white/60 mx-auto lg:mx-0">{experience.Description}</p>
+                                <ScrollArea className="h-100">
+                                    <ul>{experience.items.map((item, index)=>{
+                                        return <li>
+                                            <span>{item.Duration}</span>
+                                            <h3>{item.Position}</h3>
+                                            <div>
+                                                <span></span>
+                                                <p>{item.Company}</p>
+                                            </div>
+                                        </li>
+                                    })}</ul>
+                                </ScrollArea>
+                            </div>
+                        </TabsContent>
                         <TabsContent value="Education" className="w-full">Education</TabsContent>
                         <TabsContent value="About Me" className="w-full">About Me</TabsContent>
                         <TabsContent value="Skills" className="w-full">Skills</TabsContent>
-                        
                     </div>
+                        
+                    </div>  
                 </Tabs>
+ 
+
+ {/* <Tabs defaultValue="experience" className="w-full">
+  <div className="flex flex-col lg:flex-row gap-6">
+    
+    <TabsList className="flex flex-col w-full lg:w-70 gap-4">
+      <TabsTrigger value="experience">Experience</TabsTrigger>
+      <TabsTrigger value="education">Education</TabsTrigger>
+      <TabsTrigger value="about">About Me</TabsTrigger>
+      <TabsTrigger value="skills">Skills</TabsTrigger>
+    </TabsList>
+
+    <div className="w-full">
+      <TabsContent value="experience">Experience</TabsContent>
+      <TabsContent value="education">Education</TabsContent>
+      <TabsContent value="about">About Me</TabsContent>
+      <TabsContent value="skills">Skills</TabsContent>
+    </div>
+
+  </div>
+</Tabs> */}
+
+
+
             </div>
-        My Resume</motion.div>
+        </motion.div>
     )
 }
