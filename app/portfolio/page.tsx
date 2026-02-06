@@ -20,7 +20,7 @@ import Image from "next/image";
 const projects =[
     {
         num: "01",
-        category: "frontend",
+        category: "Frontend Project",
         title: "project 1",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
         stack: [{name: "Html 5"}, {name: "TailwindCss"}, {name:"JavaScript"}, {name:"NextJs"},{name:"TyprScript"}, {name:"API"}],
@@ -31,7 +31,7 @@ const projects =[
     },
     {
         num: "02",
-        category: "frontend",
+        category: "Frontend Project",
         title: "project 2",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
         stack: [{name: "Html 5"}, {name: "TailwindCss"}, {name:"JavaScript"}, {name:"NextJs"},{name:"TyprScript"}],
@@ -42,7 +42,7 @@ const projects =[
     },
     {
         num: "03",
-        category: "website design",
+        category: "Frontend Project",
         title: "project 3",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
         stack: [{name: "WordPress"}, {name: "Figma"}],
@@ -53,7 +53,7 @@ const projects =[
     },
     {
         num: "02",
-        category: "frontend",
+        category: "Frontend Project",
         title: "project 2",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
         stack: [{name: "Html 5"}, {name: "TailwindCss"}, {name:"JavaScript"}, {name:"NextJs"},{name:"TyprScript"}],
@@ -74,8 +74,15 @@ export default function Service ()  {
                     className="min-h-[80vh] flex flex-col justify-center py-12 lg:px-0"
                     >
             <div className="container mx-auto">
-                <div className="flex flex-col lg:flex-row lg:gap-7.5">
-                    <div className="w-full lg:w-[50%] lg:h-115 flex flex-col lg:justify-between order-2 lg:order-0">text</div>
+                <div className="flex flex-col lg:flex-row gap-10 lg:gap-7.5 ">
+                    <div className="w-full lg:w-[50%] lg:h-115 flex flex-col lg:justify-between order-2 lg:order-0 lg:gap-5 gap-20">
+                        <div>
+                            <div className="text-6xl leading-0 font-extrabold text-transparent text-outline ">{project.num}</div>
+                        </div>
+                        <div>
+                            <h2 className="text-[42px] font-bold leading-0 text-white group-hover:text-blue-400 transition-all duration-500 capitalize">{project.category}</h2>
+                        </div>
+                    </div>
                     <div className="w-full">slider</div>
                 </div>
             </div>
