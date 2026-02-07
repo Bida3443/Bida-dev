@@ -23,7 +23,7 @@ const projects =[
         category: "Frontend Project",
         title: "project 1",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
-        stack: [{name: "Html 5"}, {name: "TailwindCss"}, {name:"JavaScript"}, {name:"NextJs"},{name:"TyprScript"}, {name:"API"}],
+        stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript,"}, {name:"API"}],
         Image: "/public/home.png",
         live: "",
         githhub: "",
@@ -91,11 +91,13 @@ export default function Service ()  {
                                 })}
                             </ul>
                             <div className="border border-white/20"></div>
-                            <Link href={project.live}>
-                                <TooltipProvider delayDuration={100} >
+                            {/* <Link href={project.live}> */}
+
+
+                                {/* <TooltipProvider delayDuration={100} >
                                     <Tooltip>
-                                        <TooltipTrigger>
-                                            <BsArrowUpRight>
+                                        <TooltipTrigger className="w-17.5 h-17.5 rounded-full bg-white/50 flex justify-center items-center group">
+                                            <BsArrowUpRight className="text-white text-3xl group-hover:text-blue-700">
                                                 <TooltipTrigger>
                                                     <TooltipContent>
                                                         <p>Live Project</p>
@@ -105,8 +107,28 @@ export default function Service ()  {
                                         </TooltipTrigger>
                                     </Tooltip>
 
-                                </TooltipProvider>
-                            </Link>
+                                </TooltipProvider> */}
+
+                                <TooltipProvider delayDuration={100}>
+  <Tooltip>
+    <TooltipTrigger asChild>
+      <Link
+        href={project.live}
+        className="w-17.5 h-17.5 rounded-full bg-white/50 flex justify-center items-center group cursor-pointer"
+      >
+        <BsArrowUpRight className="text-white text-3xl group-hover:text-blue-700" />
+      </Link>
+    </TooltipTrigger>
+
+    <TooltipContent>
+      <p>Live Project</p>
+    </TooltipContent>
+  </Tooltip>
+</TooltipProvider>
+
+
+
+                            {/* </Link> */}
                         </div>
                     </div>
                     <div className="w-full lg:w-[50%]">slider</div>
