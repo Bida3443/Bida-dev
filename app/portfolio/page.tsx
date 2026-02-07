@@ -79,10 +79,34 @@ export default function Service ()  {
                         <div>
                             <div className="text-6xl leading-0 font-extrabold text-transparent text-outline ">{project.num}</div>
                         </div>
-                        <div className="space-y-20">
+                        <div className="space-y-4">
                             <h2 className="text-[42px] font-bold leading-0 text-white group-hover:text-blue-400 transition-all duration-500 gap-4 capitalize">{project.category}</h2>
 
                             <p className="text-white/60">{project.description}</p>
+
+                            {/* stack */}
+                            <ul className="flex gap-4">
+                                {project.stack.map((item,index)=>{
+                                    return <li key={index} className="text-lg text-blue-600">{item.name}</li>
+                                })}
+                            </ul>
+                            <div className="border border-white/20"></div>
+                            <Link href={project.live}>
+                                <TooltipProvider delayDuration={100} >
+                                    <Tooltip>
+                                        <TooltipTrigger>
+                                            <BsArrowUpRight>
+                                                <TooltipTrigger>
+                                                    <TooltipContent>
+                                                        <p>Live Project</p>
+                                                    </TooltipContent>
+                                                </TooltipTrigger>
+                                            </BsArrowUpRight>
+                                        </TooltipTrigger>
+                                    </Tooltip>
+
+                                </TooltipProvider>
+                            </Link>
                         </div>
                     </div>
                     <div className="w-full lg:w-[50%]">slider</div>
