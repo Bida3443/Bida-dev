@@ -79,11 +79,13 @@ export default function Service ()  {
                         <div>
                             <div className="text-6xl leading-0 font-extrabold text-transparent text-outline ">{project.num}</div>
                         </div>
-                        <div>
-                            <h2 className="text-[42px] font-bold leading-0 text-white group-hover:text-blue-400 transition-all duration-500 capitalize">{project.category}</h2>
+                        <div className="gap-20">
+                            <h2 className="text-[42px] font-bold leading-0 text-white group-hover:text-blue-400 transition-all duration-500 gap-4 capitalize">{project.category}</h2>
+
+                            <p className="text-white/60">{project.description}</p>
                         </div>
                     </div>
-                    <div className="w-full">slider</div>
+                    <div className="w-full lg:w-[50%]">slider</div>
                 </div>
             </div>
 

@@ -92,6 +92,7 @@ const links = [
   { name: "about", path: "/about" },
   { name: "my-story", path: "/story" },
   { name: "skills & services", path: "/service" },
+  { name: "portfolio", path: "/portfolio" },
   { name: "resume", path: "/resume" },
   { name: "contact", path: "/contact" },
 ];
