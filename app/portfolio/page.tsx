@@ -73,8 +73,10 @@ export default function Service ()  {
 
     const [project, setProject] = useState(projects[0]);
     const handleSlideChange = (swiper: any) => {
-        const currentIndex = swiper.activeIndex 
-    }
+        const currentIndex = swiper.activeIndex ;
+
+        setProject(projects[currentIndex]);
+    };
 
     return(
         <motion.section initial={{opacity: 0}}
