@@ -5,7 +5,12 @@ import React, {useState} from "react";
 
 import {Swiper, SwiperSlide} from "swiper/react";
 
+import { Pagination, Navigation } from "swiper/modules";
+
+
 import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 import { BsArrowUpRight, BsGithub } from "react-icons/bs";
 import { Tooltip, 
@@ -67,6 +72,9 @@ const projects =[
 export default function Service ()  {
 
     const [project, setProject] = useState(projects[0]);
+    const handleSlideChange = (swiper: any) => {
+        const currentIndex = swiper.activeIndex 
+    }
 
     return(
         <motion.section initial={{opacity: 0}}
@@ -76,7 +84,7 @@ export default function Service ()  {
             <div className="container mx-auto">
                 <div className="flex flex-col lg:flex-row gap-10 lg:gap-7.5 ">
                     <div className="w-full lg:w-[50%] lg:h-115 flex flex-col lg:justify-between order-2 lg:order-0 lg:gap-5 gap-20">
-                        <div>
+                        <div className="flex flex-col gap-7.5 h-[50%]">
                             <div className="text-6xl leading-0 font-extrabold text-transparent text-outline ">{project.num}</div>
                         </div>
                         <div className="space-y-7">
@@ -90,9 +98,10 @@ export default function Service ()  {
                                     return <li key={index} className="text-lg text-blue-600">{item.name}</li>
                                 })}
                             </ul>
-                            <div className="border border-white/20 -mt-5"></div>
+                            <div className="border border-white/20 "></div>
                           
-                                <TooltipProvider delayDuration={100}>
+                               <div className="flex gap-4 items-center">
+                                 <TooltipProvider delayDuration={100}>
                     <Tooltip>
                         <TooltipTrigger asChild>
                         <Link
@@ -126,11 +135,26 @@ export default function Service ()  {
                         </TooltipContent>
                     </Tooltip>
                     </TooltipProvider>
+                               </div>
 
                             
                         </div>
                     </div>
-                    <div className="w-full lg:w-[50%]">slider</div>
+                    <div className="w-full lg:w-[50%]">
+                        <Swiper 
+                            spaceBetween={30} 
+                            slidesPerView={1} 
+                            className="lg:h-130 mb-12"
+                            modules={[Pagination, Navigation]}
+                            pagination={{ clickable: true }}
+                            navigation
+                            onSlideChange={handleSlideChange}
+                            >
+                            {projects.map((project, index) =>{
+                                return <SwiperSlide key={index} className="h-60 bg-gray-200 flex items-center justify-center">{project.title}</SwiperSlide>
+                            })}
+                        </Swiper>
+                    </div>
                 </div>
             </div>
 
