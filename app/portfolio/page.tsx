@@ -154,7 +154,7 @@ export default function Service ()  {
                             >
                             {projects.map((project, index) =>{
                                 return <SwiperSlide key={index} className="w-full">
-                                    <div className="h-100 relative overflow-hidden flex justify-center items-center bg-pink-50/20"></div>
+                                    <div className="h-90 relative overflow-hidden flex justify-center items-center bg-pink-50/20"></div>
                                     {/* {project.title} */}
 
                                     {/* Overlay */}
@@ -170,7 +170,7 @@ export default function Service ()  {
                                         className="object-contain"/>
 
                                         <h3 className="absolute bottom-4 left-4 text-white text-xl z-10">
-                                            {project.title}
+                                            
                                         </h3>
                                     </div>
                                     
