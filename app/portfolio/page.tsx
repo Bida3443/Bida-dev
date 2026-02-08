@@ -39,7 +39,7 @@ const projects =[
         category: "Frontend Project",
         title: "project 2",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
-        stack: [{name: "Html 5"}, {name: "TailwindCss"}, {name:"JavaScript"}, {name:"NextJs"},{name:"TyprScript"}],
+        stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript"}],
         Image: "/Inu.JPG",
         live: "https://hokkaidu-inu.vercel.app/",
         githhub: "",
@@ -50,7 +50,7 @@ const projects =[
         category: "Frontend Project",
         title: "Forest Information System Website",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
-        stack: [{name: "WordPress"}, {name: "Figma"}],
+        stack: [{name: "WordPress,"}, {name: "Figma"}],
         Image: "/forest.png",
         live: "",
         githhub: "",
@@ -61,7 +61,7 @@ const projects =[
         category: "Frontend Project",
         title: "Portfolio Website",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
-        stack: [{name: "Html 5"}, {name: "TailwindCss"}, {name:"JavaScript"}, {name:"NextJs"},{name:"TyprScript"}],
+        stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript"}],
         Image: "/portfolio.JPG",
         live: "https://bida-dev.vercel.app/",
         githhub: "",
@@ -81,7 +81,7 @@ export default function Service ()  {
     return(
         <motion.section initial={{opacity: 0}}
                     animate={{opacity: 1}}
-                    className="min-h-[80vh] flex flex-col justify-center m-5 py-12 lg:px-0"
+                    className="min-h-[80vh] flex flex-col justify-center m-2 py-12 lg:px-0"
                     >
             <div className="container mx-auto">
                 <div className="flex flex-col lg:flex-row gap-10 lg:gap-7.5 ">
