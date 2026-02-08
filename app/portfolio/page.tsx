@@ -57,9 +57,9 @@ const projects =[
         
     },
     {
-        num: "02",
+        num: "04",
         category: "Frontend Project",
-        title: "project 2",
+        title: "project 4",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
         stack: [{name: "Html 5"}, {name: "TailwindCss"}, {name:"JavaScript"}, {name:"NextJs"},{name:"TyprScript"}],
         Image: "",
@@ -153,7 +153,25 @@ export default function Service ()  {
                             onSlideChange={handleSlideChange}
                             >
                             {projects.map((project, index) =>{
-                                return <SwiperSlide key={index} className="h-60 bg-gray-200 flex items-center justify-center">{project.title}</SwiperSlide>
+                                return <SwiperSlide key={index} className="w-full">
+                                    <div className="h-115 relative group flex justify-center items-center bg-pink-50/20"></div>
+                                    {project.title}
+
+                                    {/* Overlay */}
+                                    <div></div>
+
+                                    {/* image */}
+
+                                    <div className="relative w-full h-full">
+                                        <Image
+                                        src={project.Image}
+                                        alt="image"
+                                        fill
+                                        className="object-cover"/>
+                                    </div>
+                                    
+                                    
+                                    </SwiperSlide>;
                             })}
                         </Swiper>
                     </div>
