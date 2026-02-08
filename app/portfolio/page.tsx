@@ -40,8 +40,8 @@ const projects =[
         title: "project 2",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
         stack: [{name: "Html 5"}, {name: "TailwindCss"}, {name:"JavaScript"}, {name:"NextJs"},{name:"TyprScript"}],
-        Image: "",
-        live: "",
+        Image: "/Inu.JPG",
+        live: "https://hokkaidu-inu.vercel.app/",
         githhub: "",
         
     },
@@ -63,7 +63,7 @@ const projects =[
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
         stack: [{name: "Html 5"}, {name: "TailwindCss"}, {name:"JavaScript"}, {name:"NextJs"},{name:"TyprScript"}],
         Image: "/portfolio.JPG",
-        live: "",
+        live: "https://bida-dev.vercel.app/",
         githhub: "",
         
     },
@@ -85,7 +85,7 @@ export default function Service ()  {
                     >
             <div className="container mx-auto">
                 <div className="flex flex-col lg:flex-row gap-10 lg:gap-7.5 ">
-                    <div className="w-full lg:w-[50%] lg:h-115 flex flex-col lg:justify-between order-2 lg:order-0 lg:gap-5 gap-20">
+                    <div className="w-full ml-5 lg:w-[50%] lg:h-115 flex flex-col lg:justify-between order-2 lg:order-0 lg:gap-5 gap-20">
                         <div className="flex flex-col gap-7.5 h-[50%]">
                             <div className="text-6xl leading-0 font-extrabold text-transparent text-outline ">{project.num}</div>
                         </div>
@@ -97,7 +97,7 @@ export default function Service ()  {
                             {/* stack */}
                             <ul className="flex gap-4">
                                 {project.stack.map((item,index)=>{
-                                    return <li key={index} className="text-lg text-blue-600">{item.name}</li>
+                                    return <li key={index} className="lg:text-lg text-[15px]  text-blue-600">{item.name}</li>
                                 })}
                             </ul>
                             <div className="border border-white/20 "></div>
