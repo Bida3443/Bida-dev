@@ -79,7 +79,7 @@ export default function Service ()  {
                         <div>
                             <div className="text-6xl leading-0 font-extrabold text-transparent text-outline ">{project.num}</div>
                         </div>
-                        <div className="space-y-4">
+                        <div className="space-y-7">
                             <h2 className="text-[42px] font-bold leading-0 text-white group-hover:text-blue-400 transition-all duration-500 gap-4 capitalize">{project.category}</h2>
 
                             <p className="text-white/60">{project.description}</p>
@@ -90,45 +90,43 @@ export default function Service ()  {
                                     return <li key={index} className="text-lg text-blue-600">{item.name}</li>
                                 })}
                             </ul>
-                            <div className="border border-white/20"></div>
-                            {/* <Link href={project.live}> */}
-
-
-                                {/* <TooltipProvider delayDuration={100} >
-                                    <Tooltip>
-                                        <TooltipTrigger className="w-17.5 h-17.5 rounded-full bg-white/50 flex justify-center items-center group">
-                                            <BsArrowUpRight className="text-white text-3xl group-hover:text-blue-700">
-                                                <TooltipTrigger>
-                                                    <TooltipContent>
-                                                        <p>Live Project</p>
-                                                    </TooltipContent>
-                                                </TooltipTrigger>
-                                            </BsArrowUpRight>
-                                        </TooltipTrigger>
-                                    </Tooltip>
-
-                                </TooltipProvider> */}
-
+                            <div className="border border-white/20 -mt-5"></div>
+                          
                                 <TooltipProvider delayDuration={100}>
-  <Tooltip>
-    <TooltipTrigger asChild>
-      <Link
-        href={project.live}
-        className="w-17.5 h-17.5 rounded-full bg-white/50 flex justify-center items-center group cursor-pointer"
-      >
-        <BsArrowUpRight className="text-white text-3xl group-hover:text-blue-700" />
-      </Link>
-    </TooltipTrigger>
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                        <Link
+                            href={project.live}
+                            className="w-17.5 h-17.5 rounded-full bg-white/50 flex justify-center items-center group cursor-pointer"
+                        >
+                            <BsArrowUpRight className="text-white text-3xl group-hover:text-blue-700" />
+                        </Link>
+                        </TooltipTrigger>
 
-    <TooltipContent>
-      <p>Live Project</p>
-    </TooltipContent>
-  </Tooltip>
-</TooltipProvider>
+                        <TooltipContent className="bg-white text-black rounded-xl p-2">
+                        <p>Live Project</p>
+                        </TooltipContent>
+                    </Tooltip>
+                    </TooltipProvider>
 
+                     <TooltipProvider delayDuration={100}>
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                        <Link
+                            href={project.live}
+                            className="w-17.5 h-17.5 rounded-full bg-white/50 flex justify-center items-center group cursor-pointer"
+                        >
+                            <BsArrowUpRight className="text-white text-3xl group-hover:text-blue-700" />
+                        </Link>
+                        </TooltipTrigger>
 
+                        <TooltipContent className="bg-white text-black rounded-xl p-2">
+                        <p>Live Project</p>
+                        </TooltipContent>
+                    </Tooltip>
+                    </TooltipProvider>
 
-                            {/* </Link> */}
+                            
                         </div>
                     </div>
                     <div className="w-full lg:w-[50%]">slider</div>
