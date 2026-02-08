@@ -85,7 +85,7 @@ export default function Service ()  {
                     >
             <div className="container mx-auto">
                 <div className="flex flex-col lg:flex-row gap-10 lg:gap-7.5 ">
-                    <div className="w-full ml-5 lg:w-[50%] lg:h-115 flex flex-col lg:justify-between order-2 lg:order-0 lg:gap-5 gap-20">
+                    <div className="w-full lg:w-[50%] lg:h-115 flex flex-col lg:justify-between order-2 lg:order-0 lg:gap-5 gap-20">
                         <div className="flex flex-col gap-7.5 h-[50%]">
                             <div className="text-6xl leading-0 font-extrabold text-transparent text-outline ">{project.num}</div>
                         </div>
@@ -142,6 +142,8 @@ export default function Service ()  {
                             
                         </div>
                     </div>
+
+
                     <div className="w-full lg:w-[50%]">
                         <Swiper 
                             spaceBetween={30} 
@@ -153,8 +155,8 @@ export default function Service ()  {
                             onSlideChange={handleSlideChange}
                             >
                             {projects.map((project, index) =>{
-                                return <SwiperSlide key={index} className="w-full">
-                                    <div className="h-90 relative overflow-hidden flex justify-center items-center bg-pink-50/20"></div>
+                                return <SwiperSlide key={index} className="">
+                                    <div className="relative w-full h-65 sm:h-80 overflow-hidden"></div>
                                     {/* {project.title} */}
 
                                     {/* Overlay */}
@@ -169,7 +171,7 @@ export default function Service ()  {
                                         fill
                                         className="object-cover"/>
 
-                                        <h3 className="absolute bottom-4 left-4 text-white text-xl z-10">
+                                        <h3 className="absolute bottom-4 left-4 text-white text-lg z-10">
                                             
                                         </h3>
                                     </div>
