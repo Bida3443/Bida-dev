@@ -81,7 +81,7 @@ export default function Service ()  {
     return(
         <motion.section initial={{opacity: 0}}
                     animate={{opacity: 1}}
-                    className="min-h-[80vh] flex flex-col justify-center py-12 lg:px-0"
+                    className="min-h-[80vh] flex flex-col justify-center m-5 py-12 lg:px-0"
                     >
             <div className="container mx-auto">
                 <div className="flex flex-col lg:flex-row gap-10 lg:gap-7.5 ">
@@ -95,9 +95,9 @@ export default function Service ()  {
                             <p className="text-white/60">{project.description}</p>
 
                             {/* stack */}
-                            <ul className="flex gap-4">
+                            <ul className="flex gap-2">
                                 {project.stack.map((item,index)=>{
-                                    return <li key={index} className="lg:text-lg text-[15px]  text-blue-600">{item.name}</li>
+                                    return <li key={index} className="lg:text-lg text-[12px]  text-blue-600">{item.name}</li>
                                 })}
                             </ul>
                             <div className="border border-white/20 "></div>
