@@ -109,19 +109,20 @@ export default function Service ()  {
                     </Tooltip>
                     </TooltipProvider>
 
+                {/* Github Project Button */}
                      <TooltipProvider delayDuration={100}>
                     <Tooltip>
                         <TooltipTrigger asChild>
                         <Link
-                            href={project.live}
+                            href={project.githhub}
                             className="w-17.5 h-17.5 rounded-full bg-white/50 flex justify-center items-center group cursor-pointer"
                         >
-                            <BsArrowUpRight className="text-white text-3xl group-hover:text-blue-700" />
+                            <BsGithub className="text-white text-3xl group-hover:text-blue-700" />
                         </Link>
                         </TooltipTrigger>
 
                         <TooltipContent className="bg-white text-black rounded-xl p-2">
-                        <p>Live Project</p>
+                        <p>Github Repository</p>
                         </TooltipContent>
                     </Tooltip>
                     </TooltipProvider>
