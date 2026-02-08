@@ -167,7 +167,7 @@ export default function Service ()  {
                                         src={project.Image}
                                         alt=""
                                         fill
-                                        className="object-contain"/>
+                                        className="object-cover"/>
 
                                         <h3 className="absolute bottom-4 left-4 text-white text-xl z-10">
                                             
