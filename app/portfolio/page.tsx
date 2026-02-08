@@ -26,11 +26,11 @@ const projects =[
     {
         num: "01",
         category: "Frontend Project",
-        title: "project 1",
+        title: "Dental Clinic Website",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
         stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript,"}, {name:"API"}],
-        Image: "/public/home.png",
-        live: "",
+        Image: "/home.JPG",
+        live: "https://k-dental-3b3i.vercel.app/",
         githhub: "",
         
     },
@@ -40,7 +40,7 @@ const projects =[
         title: "project 2",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
         stack: [{name: "Html 5"}, {name: "TailwindCss"}, {name:"JavaScript"}, {name:"NextJs"},{name:"TyprScript"}],
-        Image: "/public/page.png",
+        Image: "",
         live: "",
         githhub: "",
         
@@ -48,10 +48,10 @@ const projects =[
     {
         num: "03",
         category: "Frontend Project",
-        title: "project 3",
+        title: "Forest Information System Website",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
         stack: [{name: "WordPress"}, {name: "Figma"}],
-        Image: "/public/forest.png",
+        Image: "/forest.png",
         live: "",
         githhub: "",
         
@@ -59,10 +59,10 @@ const projects =[
     {
         num: "04",
         category: "Frontend Project",
-        title: "project 4",
+        title: "Portfolio Website",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ab veritatis quos tenetur quisquam fugiat, repellendus fugit rerum reiciendis placeat explicabo ut ullam doloribus. Culpa dolores unde optio quo odio!",
         stack: [{name: "Html 5"}, {name: "TailwindCss"}, {name:"JavaScript"}, {name:"NextJs"},{name:"TyprScript"}],
-        Image: "",
+        Image: "/portfolio.JPG",
         live: "",
         githhub: "",
         
@@ -146,7 +146,7 @@ export default function Service ()  {
                         <Swiper 
                             spaceBetween={30} 
                             slidesPerView={1} 
-                            className="lg:h-130 mb-12"
+                            className="lg:h-100 mb-12"
                             modules={[Pagination, Navigation]}
                             pagination={{ clickable: true }}
                             navigation
@@ -154,20 +154,24 @@ export default function Service ()  {
                             >
                             {projects.map((project, index) =>{
                                 return <SwiperSlide key={index} className="w-full">
-                                    <div className="h-115 relative group flex justify-center items-center bg-pink-50/20"></div>
-                                    {project.title}
+                                    <div className="h-100 relative overflow-hidden flex justify-center items-center bg-pink-50/20"></div>
+                                    {/* {project.title} */}
 
                                     {/* Overlay */}
-                                    <div></div>
+                                    <div className="absolute inset-0 bg-black/30" />
 
                                     {/* image */}
 
-                                    <div className="relative w-full h-full">
+                                    <div className="w-full h-full">
                                         <Image
                                         src={project.Image}
-                                        alt="image"
+                                        alt=""
                                         fill
-                                        className="object-cover"/>
+                                        className="object-contain"/>
+
+                                        <h3 className="absolute bottom-4 left-4 text-white text-xl z-10">
+                                            {project.title}
+                                        </h3>
                                     </div>
                                     
                                     
