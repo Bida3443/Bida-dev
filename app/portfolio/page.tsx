@@ -155,7 +155,7 @@ export default function Service ()  {
                             className="lg:h-100 mb-12"
                             modules={[Pagination, Navigation]}
                             pagination={{ clickable: true }}
-                            navigation
+                            navigation 
                             onSlideChange={handleSlideChange}
                             >
                             {projects.map((project, index) =>{
@@ -183,6 +183,7 @@ export default function Service ()  {
                                     
                                     </SwiperSlide>;
                             })}
+                            <WorkSliderBtns/>
                         </Swiper>
                     </div>
                 </div>
