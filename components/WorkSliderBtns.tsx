@@ -2,21 +2,40 @@
 
 import { useSwiper } from "swiper/react"
 import {PiCaretLeftBold, PiCaretRightBold,} from "react-icons/pi";
-import { icons } from "lucide-react";
+// import { icons } from "lucide-react";
 
-const WorkSliderBtn = ({containerStyles, btnStyles, iconsStyle }) => {
+const WorkSliderBtnProps = ({containerStyles, btnStyles, iconsStyle}: any) => {
 
-    const Swiper = useSwiper()
+    // const Swiper = useSwiper()
 }
 
-export default function WorkSliderBtns() {
+interface WorkSliderBtnProps {
+  containerStyles?: string;
+  btnStyles?: string;
+  iconsStyles?: string;
+}
+
+export default function WorkSliderBtns(
+    {
+  containerStyles,
+  btnStyles,
+  iconsStyles,
+}: WorkSliderBtnProps
+) {
+ const swiper = useSwiper();
+    
+
  return(
         <div className={containerStyles}>
-            <button className={btnStyles}>
-                <PiCaretLeftBold/>
+            <button className={btnStyles} onClick={() => swiper.slidePrev()}>
+                <PiCaretLeftBold className={iconsStyles}/>
+
+            </button>
+            <button className={btnStyles} onClick={() => swiper.slideNext()}>
+                <PiCaretRightBold className={iconsStyles}/>
             </button>
         </div>
     )
 
-}
+};
    

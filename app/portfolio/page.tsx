@@ -6,6 +6,7 @@ import React, {useState} from "react";
 import {Swiper, SwiperSlide} from "swiper/react";
 
 import { Pagination, Navigation } from "swiper/modules";
+import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 
 import "swiper/css";
@@ -183,7 +184,7 @@ export default function Service ()  {
                                     
                                     </SwiperSlide>;
                             })}
-                            <WorkSliderBtns/>
+                            <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] lg:bottom-0 z-20 w-full justify-between lg:w-max lg:justify-none" btnStyles="bg-blue-700"/>
                         </Swiper>
                     </div>
                 </div>
