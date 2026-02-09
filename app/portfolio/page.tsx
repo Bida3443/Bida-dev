@@ -69,6 +69,7 @@ const projects =[
     },
 ]
 
+
 export default function Service ()  {
 
     const [project, setProject] = useState(projects[0]);
@@ -80,7 +81,10 @@ export default function Service ()  {
 
     return(
         <motion.section initial={{opacity: 0}}
-                    animate={{opacity: 1}}
+                    animate={{
+                    opacity: 1, 
+                    transition: {delay:0.4, ease: "easeIn"},
+                }}
                     className="min-h-[80vh] flex flex-col justify-center m-2 py-12 lg:px-0"
                     >
             <div className="container mx-auto">
