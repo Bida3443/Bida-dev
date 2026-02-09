@@ -156,7 +156,7 @@ export default function Service ()  {
                             className="lg:h-100 mb-12"
                             modules={[Pagination, Navigation]}
                             pagination={{ clickable: true }}
-                            navigation 
+                            // navigation 
                             onSlideChange={handleSlideChange}
                             >
                             {projects.map((project, index) =>{
@@ -184,7 +184,8 @@ export default function Service ()  {
                                     
                                     </SwiperSlide>;
                             })}
-                            <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] lg:bottom-0 z-20 w-full justify-between lg:w-max lg:justify-none" btnStyles="bg-blue-700"/>
+                            <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] lg:bottom-0 z-20 w-full justify-between lg:w-max lg:justify-none" btnStyles="bg-blue-700 hover:bg-blue-hover text-primary text-[22px] w-[44px] flex justify-center cursor-pointer items-center transition-all"
+                            />
                         </Swiper>
                     </div>
                 </div>
