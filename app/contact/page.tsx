@@ -22,19 +22,19 @@ import { Icon } from "lucide-react";
 
 const info=  [
     {
-        Icon:<FaPhoneAlt/>,
+        icon:<FaPhoneAlt/>,
         title:"phone",
         description:"(+234) 810 281 3443",
     },
     {
-        Icon:<FaEnvelope/>,
+        icon:<FaEnvelope/>,
         title:"Email",
         description:"Alexanderbamise@gmail.com",
     },
     {
-        Icon:<FaMapMarkerAlt/>,
+        icon:<FaMapMarkerAlt/>,
         title:"Address",
-        description:"55, Oyemekun College Road, Ogba Lagis state.",
+        description:"55, Oyemekun College Road, Ogba Lagos Nigeria.",
     },
 ]
 
@@ -88,7 +88,23 @@ export default function Service ()  {
                     </div>
                     
                         {/* info */}
-                        <div className="flex-1 flex items-center lg:justify-end order-1 lg:order-0 mb-8 lg:mb-0">info</div>
+                        <div className="flex-1 flex items-center lg:justify-end order-1 lg:order-0 mb-8 lg:mb-0">
+                            <ul className="flex flex-col gap-10">
+                                {info.map((item, index)=> {
+                                    return <li key={index} className="flex items-center gap-6">
+
+                                        <div className="w-13 h-13 lg:w-18 lg:[72px] bg-[#27272c] text-blue-700 rounded-md flex items-center justify-center">
+                                    <div className="text-[28px]">{item.icon}</div>
+                                </div>
+                                <div className="flex-1">
+                                    <p className="text-white/60">{item.title}</p>
+                                    <h3 className="text-lg">{item.description}</h3>
+                                </div>
+                                    </li>
+                                })}
+
+                            </ul>
+                        </div>
                     
                 </div>
             </div>
