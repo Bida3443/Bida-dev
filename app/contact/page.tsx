@@ -65,6 +65,21 @@ export default function Service ()  {
                                 <Input type="Emails" placeholder="Email Address" />
                                 <Input type="Phone" placeholder="Phone Number" />
                             </div>
+                            {/* Select */}
+                            <Select>
+                                <SelectTrigger className="w-full">
+                                    <SelectValue placeholder="select a service"/>
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectGroup>
+                                        <SelectLabel>Select a service </SelectLabel>
+                                        <SelectItem value="est">Web Development</SelectItem>
+                                        <SelectItem value="est">Frontend Development</SelectItem>
+                                        <SelectItem value="est">Api Integration</SelectItem>
+                                        <SelectItem value="est">Website Designs</SelectItem>
+                                    </SelectGroup>
+                                </SelectContent>
+                            </Select>
                         </form>
                     </div>
                     
