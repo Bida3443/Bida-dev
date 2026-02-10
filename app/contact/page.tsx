@@ -80,6 +80,10 @@ export default function Service ()  {
                                     </SelectGroup>
                                 </SelectContent>
                             </Select>
+                            {/* textarea */}
+                            <Textarea className="h-50"
+                            placeholder="Type Your Message Here."/>
+
                         </form>
                     </div>
                     
