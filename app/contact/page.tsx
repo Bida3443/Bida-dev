@@ -24,17 +24,17 @@ const info=  [
     {
         Icon:<FaPhoneAlt/>,
         title:"phone",
-        description:"(+234) 810 281 3443"
+        description:"(+234) 810 281 3443",
     },
     {
         Icon:<FaEnvelope/>,
         title:"Email",
-        description:"Alexanderbamise@gmail.com"
+        description:"Alexanderbamise@gmail.com",
     },
     {
         Icon:<FaMapMarkerAlt/>,
         title:"Address",
-        description:"55, Oyemekun College Road, Ogba Lagis state."
+        description:"55, Oyemekun College Road, Ogba Lagis state.",
     },
 ]
 
