@@ -60,10 +60,10 @@ export default function Service ()  {
 
                             {/* input */}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
-                                <input type="Firstname" placeholder="Firstname" />
-                                <input type="Lastname" placeholder="Lastname" />
-                                <input type="Emails" placeholder="Email Address" />
-                                <input type="Phone" placeholder="Phone Number" />
+                                <Input type="Firstname" placeholder="Firstname" />
+                                <Input type="Lastname" placeholder="Lastname" />
+                                <Input type="Emails" placeholder="Email Address" />
+                                <Input type="Phone" placeholder="Phone Number" />
                             </div>
                         </form>
                     </div>
