@@ -74,9 +74,9 @@ export default function Service ()  {
                                     <SelectGroup>
                                         <SelectLabel>Select a service </SelectLabel>
                                         <SelectItem value="est">Web Development</SelectItem>
-                                        <SelectItem value="est">Frontend Development</SelectItem>
-                                        <SelectItem value="est">Api Integration</SelectItem>
-                                        <SelectItem value="est">Website Designs</SelectItem>
+                                        <SelectItem value="cst">Frontend Development</SelectItem>
+                                        <SelectItem value="mst">Api Integration</SelectItem>
+                                        <SelectItem value="set">Website Designs</SelectItem>
                                     </SelectGroup>
                                 </SelectContent>
                             </Select>
