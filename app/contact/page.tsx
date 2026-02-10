@@ -50,8 +50,8 @@ export default function Contact ()  {
         }}
         className="py-6"
         >
-            <div className="container lg:m-2 m-4 mx-auto">
-                <div className="flex lg:m-2 m-4 flex-col lg:flex-row gap-7.5">
+            <div className="container mx-auto">
+                <div className="flex lg:m-2 m-2 flex-col lg:flex-row gap-7.5">
                     {/* form */}
                     <div className="lg:w-[54%] order-2 lg:order-0">
                         <form action="" className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
