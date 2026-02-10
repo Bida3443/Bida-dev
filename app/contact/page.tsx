@@ -83,7 +83,7 @@ export default function Service ()  {
                             {/* textarea */}
                             <Textarea className="h-50"
                             placeholder="Type Your Message Here."/>
-
+                        <Button className="max-w-40" size="md">Send Message</Button>
                         </form>
                     </div>
                     
