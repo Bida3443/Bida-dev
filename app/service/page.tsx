@@ -30,7 +30,7 @@ const Services = [
 export default function Service ()  {
 
     return(
-        <section className="min-h-[80vh] flex flex-col items-center justify-center py-12 xl:p-0">
+        <section className="min-h-[80vh] lg:w-full w-120  flex flex-col items-center justify-center py-12 xl:p-0">
             <div className="container max-auto">
                 <motion.div 
                 initial= {{opacity:0}} 

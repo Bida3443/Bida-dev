@@ -50,7 +50,7 @@ export default function Service ()  {
         }}
         className="py-6"
         >
-            <div className="container mx-auto">
+            <div className="container lg:w-full w-130 mx-auto">
                 <div className="flex flex-col lg:flex-row gap-7.5">
                     {/* form */}
                     <div className="lg:w-[54%] order-2 lg:order-0">
