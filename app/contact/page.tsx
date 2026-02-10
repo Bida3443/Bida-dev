@@ -39,7 +39,7 @@ const info=  [
 ]
 
 import {motion} from "framer-motion";
-export default function Service ()  {
+export default function Contact ()  {
 
     return(
         <motion.section
@@ -50,8 +50,8 @@ export default function Service ()  {
         }}
         className="py-6"
         >
-            <div className="container lg:w-full w-130 mx-auto">
-                <div className="flex flex-col lg:flex-row gap-7.5">
+            <div className="container lg:m-2 m-4 mx-auto">
+                <div className="flex lg:m-2 m-4 flex-col lg:flex-row gap-7.5">
                     {/* form */}
                     <div className="lg:w-[54%] order-2 lg:order-0">
                         <form action="" className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
