@@ -37,10 +37,32 @@ const info=  [
         description:"55, Oyemekun College Road, Ogba Lagis state."
     },
 ]
+
+import {motion} from "framer-motion";
 export default function Service ()  {
 
     return(
-        <div>Contact</div>
+        <motion.section
+        initial={{opacity: 0}}
+        animate={{
+            opacity: 1,
+            transition: {delay: 2.4, duration: 0.4, ease: "easeIn"},
+        }}
+        className="py-6"
+        >
+            <div className="container mx-auto">
+                <div className="flex flex-col lg:flex-row gap-7.5">
+                    {/* form */}
+                    <div className="lg:h-[54%] order-2 lg:order-0">
+                        <form action="">form</form>
+                    </div>
+                    <div>
+                        {/* info */}
+                        <div className="flex-1 flex items-center lg:justify-end order-1 lg:order-0 mb-8 lg:mb-0">info</div>
+                    </div>
+                </div>
+            </div>
+        </motion.section>
     )
 }
 
