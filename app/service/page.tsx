@@ -7,22 +7,22 @@ import {motion} from "framer-motion";
 const Services = [
     {
         num: "01",
-        title: "Landing Page",
+        title: "Frontend Development",
         Descripton:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, obcaecati inventore earum dolores tempore, eligendi molestiae vitae ratione quia excepturi porro saepe ut corporis eaque tempora quaerat minus voluptate praesentium"
     },
     {
         num: "02",
-        title: "Web Development & API",
+        title: "API Integration",
         Descripton:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, obcaecati inventore earum dolores tempore, eligendi molestiae vitae ratione quia excepturi porro saepe ut corporis eaque tempora quaerat minus voluptate praesentium"
     },
     {
         num: "03",
-        title: "Web Development",
+        title: "UI/UX Implementation",
         Descripton:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, obcaecati inventore earum dolores tempore, eligendi molestiae vitae ratione quia excepturi porro saepe ut corporis eaque tempora quaerat minus voluptate praesentium"
     },
     {
         num: "04",
-        title: "Website Design",
+        title: "Responsive Web Design",
         Descripton:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, obcaecati inventore earum dolores tempore, eligendi molestiae vitae ratione quia excepturi porro saepe ut corporis eaque tempora quaerat minus voluptate praesentium"
     },
 ]
