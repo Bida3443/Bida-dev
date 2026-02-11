@@ -26,7 +26,7 @@ import Image from "next/image";
 const projects =[
     {
         num: "01",
-        category: "Frontend Project",
+        category: "Frontend & API",
         title: "Dental Clinic Website",
         description: "I developed a modern and responsive dental clinic website using Next.js and TypeScript. I integrated APIs to handle dynamic content and improve user interaction, ensuring fast performance, clean UI, and seamless navigation across all devices.",
         stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript,"}, {name:"API"}],
@@ -37,7 +37,7 @@ const projects =[
     },
     {
         num: "02",
-        category: "Frontend Project",
+        category: "UI Implementation",
         title: "project 2",
         description: "I developed an interactive airdrop platform where users can submit their wallet addresses to receive token rewards. I implemented form validation, smooth user feedback, and a responsive interface using Next.js and TypeScript to ensure a secure and seamless user experience.",
         stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript"}],
@@ -48,7 +48,7 @@ const projects =[
     },
     {
         num: "03",
-        category: "Frontend Project",
+        category: "WordPress",
         title: "Forest Information System Website",
         description: "I developed a forest information platform to improve access to environmental data across Southwest Nigeria. The website allows users to easily view and navigate forest-related data online, helping to centralize information and enhance accessibility through a clean, responsive interface.",
         stack: [{name: "WordPress,"}, {name: "Figma"}],
@@ -59,7 +59,7 @@ const projects =[
     },
     {
         num: "04",
-        category: "Frontend Project",
+        category: "Frontend",
         title: "Portfolio Website",
         description: "I designed and developed my personal portfolio website to showcase my projects, technical skills, and professional journey. Built with Next.js and TypeScript, the platform reflects my approach to clean UI design, responsive development, and performance-focused frontend architecture",
         stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript"}],
