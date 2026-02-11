@@ -37,7 +37,7 @@ const projects =[
     },
     {
         num: "02",
-        category: "UI Implementation",
+        category: "Frontend",
         title: "project 2",
         description: "I developed an interactive airdrop platform where users can submit their wallet addresses to receive token rewards. I implemented form validation, smooth user feedback, and a responsive interface using Next.js and TypeScript to ensure a secure and seamless user experience.",
         stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript"}],
@@ -59,7 +59,7 @@ const projects =[
     },
     {
         num: "04",
-        category: "Frontend",
+        category: "Frontend & API",
         title: "Portfolio Website",
         description: "I designed and developed my personal portfolio website to showcase my projects, technical skills, and professional journey. Built with Next.js and TypeScript, the platform reflects my approach to clean UI design, responsive development, and performance-focused frontend architecture",
         stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript"}],
