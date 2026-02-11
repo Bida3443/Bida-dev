@@ -1,9 +1,9 @@
 "use client"
 
 
-import { icons } from "lucide-react";
-import { title } from "process";
-import {FaHtml5,FaCss3, FaJs, FaReact, FaFigma, FaNodeJs,} from "react-icons/fa";
+// import { icons } from "lucide-react";
+// import { title } from "process";
+import {FaHtml5,FaCss3, FaJs, FaReact, FaFigma,} from "react-icons/fa";
 
 import {SiTailwindcss, SiNextdotjs, SiTypescript} from "react-icons/si";
 
@@ -15,7 +15,7 @@ import {motion} from "framer-motion";
 
 const about = {
     title:"About me",
-    Description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, iste impedit! Commodi repellat magnam et eos in quam placeat, unde maxime? Quasi vel similique, ex illo nisi mollitia. Quos, doloribus.",
+    Description: "I'm Idowu Alexander Bamise, a passionate Front-End Developer specializing in building responsive, high-performance web applications. I enjoy transforming ideas into clean, scalable digital experiences that users can navigate effortlessly. With hands-on experience working on real-world projects for startups, academic institutions, and NGOs, I focus on delivering intuitive interfaces, clean code, and seamless user experiences.",
 
     info: [
         {
@@ -55,7 +55,7 @@ const about = {
 const experience = {
     icon: "/public/Bida.png",
     title: "My experience",
-    Description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, iste impedit! Commodi repellat magnam et eos in quam placeat, unde maxime? Quasi vel similique, ex illo nisi mollitia. Quos, doloribus.",
+    Description: "I have hands-on experience building responsive and production-ready web platforms for startups, academic institutions, and organizations. As a Frontend Developer, I specialize in JavaScript, TypeScript, React, Next.js, and Tailwind CSS, focusing on clean architecture, performance, and intuitive user interfaces.",
     items: [
         {
             Company: "AmondSouls",
@@ -80,7 +80,7 @@ const experience = {
 const education = {
     icon: "/public/Bida.png",
     title: "My education",
-    Description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, iste impedit! Commodi repellat magnam et eos in quam placeat, unde maxime? Quasi vel similique, ex illo nisi mollitia. Quos, doloribus.",
+    Description: "I have a strong academic foundation in both technical and professional fields, which complements my frontend development expertise. My studies equipped me with analytical skills, problem-solving abilities, and a solid understanding of technology and management principles.",
     items: [
         {
             Institution: "Federal University Of Technology Akure",
@@ -99,7 +99,7 @@ const education = {
 
 const Skills = {
     title: "My Skills",
-    Description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, iste impedit! Commodi repellat magnam et eos in quam placeat, unde maxime? Quasi vel similique, ex illo nisi mollitia. Quos, doloribus.",
+    Description: "I specialize in building modern, responsive, and performant web applications. I work with a mix of frontend technologies and design tools to create clean interfaces, maintainable code, and seamless user experiences.",
     Skilllist: [
         {
             icon: <FaHtml5/>,
