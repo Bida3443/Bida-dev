@@ -56,9 +56,9 @@ export default function Contact ()  {
                     <div className="lg:w-[54%] order-2 lg:order-0">
                         <form action="" className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
                             <h3 className="text-4xl text-blue-700 font-bold">Let's work Together</h3>
-                            <p className="text-white/60">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab maiores neque voluptatum illum, quidem modi. Odit nemo, eligendi magnam laborum quia ipsa dignissimos necessitatibus reiciendis tenetur eveniet in quos est!</p>
+                            {/* <p className="text-white/60">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab maiores neque voluptatum illum, quidem modi. Odit nemo, eligendi magnam laborum quia ipsa dignissimos necessitatibus reiciendis tenetur eveniet in quos est!</p> */}
 
-                            {/* input */}
+                            {/* input */} 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
                                 <Input type="Firstname" placeholder="Firstname" />
                                 <Input type="Lastname" placeholder="Lastname" />
@@ -73,7 +73,7 @@ export default function Contact ()  {
                                 <SelectContent>
                                     <SelectGroup>
                                         <SelectLabel>Select a service </SelectLabel>
-                                        <SelectItem value="est">Web Development</SelectItem>
+                                        <SelectItem value="est">UI Implementation</SelectItem>
                                         <SelectItem value="cst">Frontend Development</SelectItem>
                                         <SelectItem value="mst">Api Integration</SelectItem>
                                         <SelectItem value="set">Website Designs</SelectItem>
