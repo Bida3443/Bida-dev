@@ -173,7 +173,7 @@ export default function Resume ()  {
                         <TabsContent value="Experience" className="w-full">
                             <div className="flex flex-col gap-7.5 text-center lg:text-left">
                                 <h3 className="text-4xl font-bold">{experience.title}</h3>
-                                <p className="max-w-150 text-white/60 mx-auto lg:mx-0">{experience.Description}</p>
+                                <p className="max-w-150 text-justify text-white/60 mx-auto lg:mx-0">{experience.Description}</p>
                                 <ScrollArea className="h-100">
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-7.5">{experience.items.map((item, index)=>{
                                         return <li key={index} className="bg-[#232329] h-46 py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
@@ -191,7 +191,7 @@ export default function Resume ()  {
                         <TabsContent value="Education" className="w-full">
                             <div className="flex flex-col gap-7.5 text-center lg:text-left">
                                 <h3 className="text-4xl font-bold">{education.title}</h3>
-                                <p className="max-w-150 text-white/60 mx-auto lg:mx-0">{education.Description}</p>
+                                <p className="max-w-150 text-justify text-white/60 mx-auto lg:mx-0">{education.Description}</p>
                                 <ScrollArea className="h-100">
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-7.5">{education.items.map((item, index)=>{
                                         return <li key={index} className="bg-[#232329] h-46 py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
@@ -224,7 +224,7 @@ export default function Resume ()  {
                             <div className="flex flex-col gap-7.5">
                                 <div className="flex flex-col gap-7.5 text-center lg:text-left">
                                     <h3 className="text-4xl font-bold">{Skills.title}</h3>
-                                    <p className="max-w-150 text-white/60 mx-auto lg:mx-0">{Skills.Description}</p>
+                                    <p className="max-w-150 text-justify text-white/60 mx-auto lg:mx-0">{Skills.Description}</p>
                                 </div>
                                 <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 lg:gap-7.5">
                                     {Skills.Skilllist.map((skill, index) =>{
