@@ -79,7 +79,7 @@ const experience = {
         
     ]
 
-}
+};
 
 const education = {
     icon: "/public/Bida.png",
@@ -141,7 +141,7 @@ const Skills = {
         
     ]
 
-}
+};
 
 
 export default function Resume ()  {
