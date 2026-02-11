@@ -5,26 +5,27 @@ import Link from "next/link";
 import {motion} from "framer-motion";
 
 const Services = [
-    {
-        num: "01",
-        title: "Frontend Development",
-        Descripton:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, obcaecati inventore earum dolores tempore, eligendi molestiae vitae ratione quia excepturi porro saepe ut corporis eaque tempora quaerat minus voluptate praesentium"
-    },
-    {
-        num: "02",
-        title: "API Integration",
-        Descripton:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, obcaecati inventore earum dolores tempore, eligendi molestiae vitae ratione quia excepturi porro saepe ut corporis eaque tempora quaerat minus voluptate praesentium"
-    },
-    {
-        num: "03",
-        title: "UI/UX Implementation",
-        Descripton:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, obcaecati inventore earum dolores tempore, eligendi molestiae vitae ratione quia excepturi porro saepe ut corporis eaque tempora quaerat minus voluptate praesentium"
-    },
-    {
-        num: "04",
-        title: "Responsive Web Design",
-        Descripton:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, obcaecati inventore earum dolores tempore, eligendi molestiae vitae ratione quia excepturi porro saepe ut corporis eaque tempora quaerat minus voluptate praesentium"
-    },
+    
+     {
+    num: "01",
+    title: "Frontend Development",
+    Descripton: "I build fast, scalable, and maintainable web applications using modern technologies like React and Next.js. I focus on clean code, reusable components, and delivering smooth user experiences."
+},
+{
+    num: "02",
+    title: "API Integration",
+    Descripton: "I connect frontend applications to APIs and backend services to deliver dynamic, real-time data. I handle data fetching, state management, and error handling to ensure seamless functionality."
+},
+{
+    num: "03",
+    title: "UI/UX Implementation",
+    Descripton: "I transform design mockups into pixel-perfect, interactive interfaces. I pay attention to spacing, typography, and user flow to create intuitive and engaging digital experiences."
+},
+{
+    num: "04",
+    title: "Responsive Web Design",
+    Descripton: "I design and develop websites that adapt smoothly across mobile, tablet, and desktop devices. I ensure consistency, accessibility, and performance on every screen size."
+},
 ]
 
 export default function Service ()  {
