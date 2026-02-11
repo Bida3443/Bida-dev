@@ -19,31 +19,35 @@ const about = {
 
     info: [
         {
-            fieldName: "Name",
+            fieldName: "Name:",
             fieldValue: "Idowu Alexander Bamise"
         },
         {
-            fieldName: "Phone",
-            fieldValue: "(+234 810 281 3443)"
+            fieldName: "Birthday:",
+            fieldValue: "25th of June"
         },
         {
-            fieldName: "Experience",
+            fieldName: "Phone:",
+            fieldValue: "(+234) 810 281 3443"
+        },
+        {
+            fieldName: "Experience:",
             fieldValue: "5+ Years"
         },
         {
-            fieldName: "Email",
-            fieldValue: "Alexanderbamise@gmail.com"
+            fieldName: "Email:",
+            fieldValue: "alexanderbamise@gmail.com"
         },
         {
-            fieldName: "Nationality",
+            fieldName: "Nationality:",
             fieldValue: "Nigerian"
         },
         {
-            fieldName: "Frelance",
+            fieldName: "Work Status:",
             fieldValue: "Available"
         },
         {
-            fieldName: "Languages",
+            fieldName: "Languages:",
             fieldValue: "English, French"
         },
         
@@ -205,10 +209,10 @@ export default function Resume ()  {
                         <TabsContent value="About Me" className="w-full text-center lg:text-left">
                             <div className="flex flex-col gap-7.5">
                                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                                <p className="max-w-150 tetx-white/60 mx-auto lg:mx-0">{about.Description}</p>
-                                <ul  className="grid grid-cols-1 lg:grid-cols-2 gap-y-6 max-w-155 mx-auto xl:mx-0 ">
+                                <p className="max-w-150 text-justify text-white/60 mx-auto lg:mx-0">{about.Description}</p>
+                                <ul  className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6 max-w-155 mx-auto xl:mx-0 ">
                                     {about.info.map((item,index)=>{
-                                        return <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
+                                        return <li key={index} className="flex items-center lg:justify-center  flex-start lg:justify-start gap-4">
                                             <span className="text-white/60">{item.fieldName}</span>
                                             <span className="text-xl">{item.fieldValue}</span>
                                         </li>
