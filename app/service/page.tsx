@@ -32,7 +32,12 @@ export default function Service ()  {
 
     return(
         <section className="min-h-[80vh] lg:m-2 m-2 flex flex-col items-center justify-center py-12 xl:p-0">
+            <div className="flex justify-start">
+                
+            </div>
             <div className="container max-auto">
+                <h1 className="text-[40px] font-bold leading-none  mb-3 text-blue-700 transition-all duration-500">MY SERVICES</h1>
+                <div className="border-b border-white/20 mb-5 w-65"></div>
                 <motion.div 
                 initial= {{opacity:0}} 
                 animate={{opacity: 1,  transition: {delay: 2.4, duration: 0.4, ease: "easeIn"}}}
