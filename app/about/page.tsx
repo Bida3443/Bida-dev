@@ -3,6 +3,8 @@
 
 // import { Tabs, TabsContent } from "@/components/ui//tabs";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import Bida from "../../public/pac.png";
 
 
 
@@ -58,24 +60,37 @@ export default function About ()  {
         transition: {delay: 2.4, duration: 0.4, ease:"easeIn"},
         }}
         
-        className="container h-screen mx-auto bg-[#1a1a1b]">
-            <div className="container bg-amber-200 mx-auto">
-                <h1 className="text-white/80 lg:text-4xl p-10 text-[24px] font-bold">ALLOW ME TO INTRODUCE MYSELF</h1>
-                <div>
+        className=" min-h-screen p-6 lg:p-12 bg-black">
+            <div className=" max-w-6xl mx-auto bg-[#1a1a1b] rounded-2xl p-8">
+                
+                <h1 className="text-white/80 lg:text-4xl p-10 text-[20px] font-bold">ALLOW ME TO INTRODUCE MYSELF</h1>
+                <div className="flex lg:flex-row flex-col px-5">
+                    <Image
+                    src={Bida}
+                    alt=""
+                    height={50}
+                    width={300}
+                    className="w-full max-w-75 h-auto rounded-2xl border-15 border-white/35"/>
+                    
                     {/* <h2 className="text-blue-600 text-4xl font-bold">Frontend Developer</h2> */}
                     
-                    <div className="w-full ml-20 mx-auto text-center lg:text-left">
+                    <div className="w-full lg:ml-10 text-center lg:text-left">
                       <div className="flex flex-col gap-7.5">
-                         <h3 className="text-4xl text-blue-700 font-bold">{about.title}</h3>
+                        <div className="space-y-5">
+                            <h3 className="lg:text-4xl text-[20px] text-blue-700 font-bold">{about.title}</h3>
+                         
                          <p className="max-w-150 text-justify text-white/60 mx-auto lg:mx-0">{about.Description}</p>
                        <ul  className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6 max-w-155 mx-auto xl:mx-0 ">
                              {about.info.map((item,index)=>{
-                             return <li key={index} className="flex items-center lg:justify-center  flex-start lg:justify-start gap-4">
+                             return <li key={index} className="flex items-center lg:justify-start justify-center   gap-4">
                             <span className="text-white/60">{item.fieldName}</span>
                             <span className="text-xl">{item.fieldValue}</span>
                                     </li>
                                          })}
                                         </ul>
+
+                        </div>
+                         
                                                 </div>
                                             </div>
                     
