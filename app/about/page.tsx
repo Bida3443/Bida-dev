@@ -150,10 +150,11 @@ export default function About ()  {
                     </div>
                     <div className="flex m-5 justify-center ">
                         <div className="flex flex-wrap justify-center gap-10 ">{watch.map((item, index)=>(
-                            <div className="flex flex-col items-center justify-center bg-[#3c3c41]  lg:w-40 w-30 p-8 rounded-xl text-center space-y-5 min-w-37" key={index}>
+                            <div className="flex flex-col items-center justify-center bg-[#3c3c41]  lg:w-40 w-20 lg:p-8 p-4 rounded-xl text-center space-y-5 min-w-37" key={index}>
                                 <div className="text-3xl bg-[#2a2a30] rounded-full p-2 ">{item.svg}</div>
                                 <div className="font-semibold">{item.text}</div>
                             </div>
+
                         ))}</div>
                     </div>
                     <div className="flex mt-15">
