@@ -51,6 +51,18 @@ const about = {
     ]
     
 };
+
+const watch = {
+   svg: <svg 
+   xmlns="http://www.w3.org/2000/svg" 
+   viewBox="0 0 512 512"
+   className=""><path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.8 82.8c22 9.3 38.4 31 38.3 57.2-.5 99.2-41.3 280.7-213.6 363.2-16.7 8-36.1 8-52.8 0-172.4-82.5-213.1-264-213.6-363.2-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.9 1 251.4 0 256 0zm0 66.8l0 378.1c138-66.8 175.1-214.8 176-303.4l-176-74.6 0 0z"/></svg>,
+   text:"Integrity",
+   
+};
+
+    
+
 export default function About ()  {
 
     return(
@@ -63,7 +75,7 @@ export default function About ()  {
         className=" min-h-screen p-2 lg:p-12 bg-black">
             <div className=" max-w-6xl mx-auto bg-[#1a1a1b] rounded-2xl lg:p-8 p-0">
                 
-                <h1 className="text-white/80 lg:text-4xl p-10 text-[15px] font-bold">ALLOW ME TO INTRODUCE MYSELF</h1>
+                <h1 className="text-white/80 lg:text-4xl p-10 text-[18px] font-bold">ALLOW ME TO INTRODUCE MYSELF</h1>
                 <div className="flex lg:flex-row flex-col px-5">
                     <Image
                     src={Bida}
@@ -99,7 +111,7 @@ export default function About ()  {
                 <div className="m-5">
                     <div className="flex">
                         <h4>WATCHWARDS <span className="border-b border-blue-700 w-50"></span></h4>
-                        <div className="border-b border-blue-700 w-50"></div>
+                        <div className="border-b-3 border-blue-700 w-50"></div>
                     </div>
                     <div>ssss</div>
                 </div>
