@@ -144,7 +144,7 @@ export default function About ()  {
                     
                 </div>
                 <div className="m-5">
-                    <div className="flex mt-15">
+                    <div className="flex  mt-15">
                         <h4 className="text-white/60">WATCHWARDS</h4>
                         <div className="border-b-3 border-blue-700 w-50"></div>
                     </div>
@@ -158,8 +158,8 @@ export default function About ()  {
                         ))}</div>
                     </div>
                     <div className="flex mt-15">
-                        <h4 className="text-white/60 flex">HOBBIES & INTERESTS</h4>
-                        <div className="border-b-3 border-blue-700 w-35"></div>
+                        <h4 className="text-white/60">INTERESTS</h4>
+                        <div className="border-b-3 border-blue-700 w-50"></div>
                         
                     </div>
                     <div>xxxx</div>
