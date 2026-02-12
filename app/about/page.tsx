@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 
 const about = {
-    title:"About me",
+    title:"Frontend Developer",
     Description: "I'm Idowu Alexander Bamise, a passionate Front-End Developer specializing in building responsive, high-performance web applications. I enjoy transforming ideas into clean, scalable digital experiences that users can navigate effortlessly. With hands-on experience working on real-world projects for startups, academic institutions, and NGOs, I focus on delivering intuitive interfaces, clean code, and seamless user experiences.",
 
     info: [
@@ -49,7 +49,7 @@ const about = {
     ]
     
 };
-export default function Service ()  {
+export default function About ()  {
 
     return(
         <motion.div 
@@ -58,15 +58,15 @@ export default function Service ()  {
         transition: {delay: 2.4, duration: 0.4, ease:"easeIn"},
         }}
         
-        className="container min-h-[70vh] mx-auto bg-[#1a1a1b]">
-            <div className="container mx-auto">
-                <h1 className="text-white/80 lg:text-4xl text-2xl font-bold">ALLOW ME TO INTRODUCE MYSELF</h1>
+        className="container h-screen mx-auto bg-[#1a1a1b]">
+            <div className="container bg-amber-200 mx-auto">
+                <h1 className="text-white/80 lg:text-4xl p-10 text-[24px] font-bold">ALLOW ME TO INTRODUCE MYSELF</h1>
                 <div>
-                    <h2 className="text-blue-600 text-4xl font-bold">Frontend Developer</h2>
+                    {/* <h2 className="text-blue-600 text-4xl font-bold">Frontend Developer</h2> */}
                     
-                    <div className="w-full text-center lg:text-left">
+                    <div className="w-full ml-20 mx-auto text-center lg:text-left">
                       <div className="flex flex-col gap-7.5">
-                         <h3 className="text-4xl font-bold">{about.title}</h3>
+                         <h3 className="text-4xl text-blue-700 font-bold">{about.title}</h3>
                          <p className="max-w-150 text-justify text-white/60 mx-auto lg:mx-0">{about.Description}</p>
                        <ul  className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6 max-w-155 mx-auto xl:mx-0 ">
                              {about.info.map((item,index)=>{
