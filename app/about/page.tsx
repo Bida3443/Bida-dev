@@ -110,7 +110,7 @@ export default function About ()  {
         className=" min-h-screen p-2 lg:p-12 bg-black">
             <div className=" max-w-6xl mx-auto bg-[#1a1a1b] rounded-2xl lg:p-8 p-0">
                 
-                <h1 className="text-white/80 text-4xl p-10 font-bold">ALLOW ME TO INTRODUCE MYSELF</h1>
+                <h1 className="text-white/80 lg:text-4xl text-2xl p-10 font-bold">ALLOW ME TO INTRODUCE MYSELF</h1>
                 <div className="flex lg:flex-row flex-col px-5">
                     <Image
                     src={Bida}
