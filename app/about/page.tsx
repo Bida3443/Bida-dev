@@ -60,29 +60,29 @@ export default function About ()  {
         transition: {delay: 2.4, duration: 0.4, ease:"easeIn"},
         }}
         
-        className=" min-h-screen p-6 lg:p-12 bg-black">
+        className=" min-h-screen p-2 lg:p-12 bg-black">
             <div className=" max-w-6xl mx-auto bg-[#1a1a1b] rounded-2xl p-8">
                 
-                <h1 className="text-white/80 lg:text-4xl p-10 text-[20px] font-bold">ALLOW ME TO INTRODUCE MYSELF</h1>
+                <h1 className="text-white/80 lg:text-4xl p-10 text-[15px] font-bold">ALLOW ME TO INTRODUCE MYSELF</h1>
                 <div className="flex lg:flex-row flex-col px-5">
                     <Image
                     src={Bida}
                     alt=""
                     height={50}
                     width={300}
-                    className="w-full max-w-75 h-auto rounded-2xl border-15 border-white/35"/>
+                    className="w-full lg:max-w-75 max-w-50 h-auto rounded-2xl border-15 border-white"/>
                     
                     {/* <h2 className="text-blue-600 text-4xl font-bold">Frontend Developer</h2> */}
                     
                     <div className="w-full lg:ml-10 text-center lg:text-left">
                       <div className="flex flex-col gap-7.5">
-                        <div className="space-y-5">
+                        <div className="space-y-5 lg:w-full w-100 bg-amber-400">
                             <h3 className="lg:text-4xl text-[20px] text-blue-700 font-bold">{about.title}</h3>
                          
                          <p className="max-w-150 text-justify text-white/60 mx-auto lg:mx-0">{about.Description}</p>
                        <ul  className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6 max-w-155 mx-auto xl:mx-0 ">
                              {about.info.map((item,index)=>{
-                             return <li key={index} className="flex items-center lg:justify-start justify-center   gap-4">
+                             return <li key={index} className="flex items-center lg:justify-start justify-start  gap-4">
                             <span className="text-white/60">{item.fieldName}</span>
                             <span className="text-xl">{item.fieldValue}</span>
                                     </li>
@@ -93,11 +93,17 @@ export default function About ()  {
                          
                                                 </div>
                                             </div>
+                                            
                     
+                </div>
+                <div className="m-5">
+                    <div className="flex">
+                        <h4>WATCHWARDS <span className="border-b border-blue-700 w-50"></span></h4>
+                        <div className="border-b border-blue-700 w-50"></div>
+                    </div>
+                    <div>ssss</div>
                 </div>
             </div>
         </motion.div>
     )
 }
-
-
