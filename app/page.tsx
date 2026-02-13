@@ -19,13 +19,17 @@ export default function Home() {
             </span>
             <p className=" max-w-125 mb-9 mt-4 text-white/80 lg:text-justify justify-center">I craft elegant digital experiences as a Frontend Developer, Website Designer, and Problem Solver - prioritizing performance, accessibility, responsiveness, and clean design.</p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button 
+              <a href="/Alexander_resume.pdf"
+                  target="_blank"
+                  className="inline-block">
+                <Button 
               variant="outline"
               size="lg"
               className="uppercase flex items-center gap-2 hover:text-white hover:bg-blue-700">
                 <span>Download CV</span>
                 <FiDownload className="text-xl"/>
               </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Social/>
               </div>

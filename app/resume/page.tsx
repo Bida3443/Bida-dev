@@ -172,7 +172,21 @@ export default function Resume ()  {
 
                         <TabsContent value="Experience" className="w-full">
                             <div className="flex flex-col gap-7.5 text-center lg:text-left">
+                                
+                                <div className="flex lg:flex-row gap-5 flex-col items-center justify-between">
                                 <h3 className="text-4xl font-bold">{experience.title}</h3>
+                                <div className="flex justify-end">
+                                                    <a
+                                                        href="/Alexander_resume.pdf"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="inline-block px-6 py-3 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition"
+                                                        >
+                                                        Download Resume
+                                                        </a>
+                                
+                                                </div>
+                                </div>
                                 <p className="max-w-150 text-justify text-white/60 mx-auto lg:mx-0">{experience.Description}</p>
                                 <ScrollArea className="h-100">
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-7.5">{experience.items.map((item, index)=>{
