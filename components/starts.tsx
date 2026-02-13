@@ -17,8 +17,8 @@ const Stat = [
     text: "Technologies Mastered",
 },
 {
-    num:48,
-    text: "Happy Clients",
+    num:24,
+    text: "Hours Of Support",
 },
 ]
 
