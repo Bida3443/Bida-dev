@@ -93,7 +93,40 @@ const watch = [
         text:"PERFORMANCE",
     }
 ]
-    
+const interest =[
+    {
+        name:"PROGRAMMING",
+        percentage: 100,
+    },
+    {
+        name:"STUDYING",
+        percentage: 75,
+    },
+    {
+        name:"MOVIES & SERIES",
+        percentage: 60,
+    },
+    {
+        name:"RESEARCH",
+        percentage: 75,
+    },
+    {
+        name:"GAMING",
+        percentage: 55,
+    },
+    {
+        name:"MIMICKING",
+        percentage: 85,
+    },
+    {
+        name:"OUTING",
+        percentage: 70,
+    },
+    {
+        name:"FOOTBALL",
+        percentage: 95,
+    },
+];
    
 
 
@@ -162,7 +195,38 @@ export default function About ()  {
                         <div className="border-b-3 border-blue-700 w-50"></div>
                         
                     </div>
-                    <div>xxxx</div>
+                    
+                    {/* interests */}
+
+                         <div className="min-h-screen bg-[#1a1a1b] flex flex-col items-center justify-center p-2 space-y-8">
+      
+      {interest.map((skill, index) => (
+        <div key={index} className="w-full max-w-xl">
+
+          {/* Skill Name + Percentage */}
+          <div className="flex justify-between mb-2 text-white">
+            <span>{skill.name}</span>
+            <span>{skill.percentage}%</span>
+          </div>
+
+          {/* Progress Bar Background */}
+          <div className="w-full h-3 bg-[#232325] rounded-full overflow-hidden">
+            
+            {/* Animated Fill */}
+            <motion.div
+              className="h-full bg-blue-600 rounded-full"
+              initial={{ width: 0 }}
+              whileInView={{ width: `${skill.percentage}%` }}
+              transition={{ duration: 1 }}
+            />
+
+          </div>
+
+        </div>
+      ))}
+
+    </div>
+
                 </div>
             </div>
         </motion.div>
