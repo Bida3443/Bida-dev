@@ -144,6 +144,17 @@ export default function About ()  {
             <div className=" max-w-6xl mx-auto bg-[#1a1a1b] rounded-2xl lg:p-8 p-0">
                 
                 <h1 className="text-white/80 lg:text-4xl text-2xl p-10 font-bold">ALLOW ME TO INTRODUCE MYSELF</h1>
+                <div className="flex justify-end">
+                    <a
+                        href="/Alexander_resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition"
+                        >
+                        Download Resume
+                        </a>
+
+                </div>
                 <div className="flex lg:flex-row flex-col px-5">
                     <Image
                     src={Bida}
