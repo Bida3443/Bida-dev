@@ -198,23 +198,23 @@ export default function About ()  {
                     
                     {/* interests */}
 
-                         <div className="min-h-screen bg-[#1a1a1b] flex flex-col items-center justify-center p-2 space-y-8">
+                         <div className=" bg-[#1a1a1b] grid grid-cols-1 lg:grid-cols-2 items-center justify-center p-10 space-y-5 ">
       
       {interest.map((skill, index) => (
-        <div key={index} className="w-full max-w-xl">
+        <div key={index} className="w-full  max-w-lg">
 
           {/* Skill Name + Percentage */}
-          <div className="flex justify-between mb-2 text-white">
+          <div className="flex justify-between mb-2  text-white">
             <span>{skill.name}</span>
             <span>{skill.percentage}%</span>
           </div>
 
           {/* Progress Bar Background */}
-          <div className="w-full h-3 bg-[#232325] rounded-full overflow-hidden">
+          <div className="w-full space-x-6  h-3 bg-[#232325]  overflow-hidden">
             
             {/* Animated Fill */}
             <motion.div
-              className="h-full bg-blue-600 rounded-full"
+              className="h-full bg-blue-600 "
               initial={{ width: 0 }}
               whileInView={{ width: `${skill.percentage}%` }}
               transition={{ duration: 1 }}
