@@ -123,7 +123,7 @@ const interest =[
         percentage: 70,
     },
     {
-        name:"FOOTBALL",
+        name:"FOOTBALLING",
         percentage: 95,
     },
 ];
@@ -198,7 +198,7 @@ export default function About ()  {
                     
                     {/* interests */}
 
-                         <div className=" bg-[#1a1a1b] grid grid-cols-1 lg:grid-cols-2 items-center justify-center p-10 space-y-5 ">
+                         <div className=" bg-[#1a1a1b] grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-10 p-10  ">
       
       {interest.map((skill, index) => (
         <div key={index} className="w-full  max-w-lg">
