@@ -205,6 +205,17 @@ export default function Resume ()  {
                         <TabsContent value="Education" className="w-full">
                             <div className="flex flex-col gap-7.5 text-center lg:text-left">
                                 <h3 className="text-4xl font-bold">{education.title}</h3>
+                                <div className="flex justify-end">
+                                                    <a
+                                                        href="/Bamise_CV.pdf"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="inline-block px-6 py-3 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition"
+                                                        >
+                                                        Download CV
+                                                        </a>
+                                
+                                                </div>
                                 <p className="max-w-150 text-justify text-white/60 mx-auto lg:mx-0">{education.Description}</p>
                                 <ScrollArea className="h-100">
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-7.5">{education.items.map((item, index)=>{
