@@ -253,7 +253,7 @@ export default function Service ()  {
                {/* Tools */}
                 
                   <div className="mt-20">
-                    <h1 className="lg:text-[40px] text-[30px] font-bold leading-none mt-8 mb-3 text-blue-700 transition-all duration-500">TOOLS I WORK WITH</h1>
+                    <h1 className="text-[40px] font-bold leading-none mt-8 mb-3 text-blue-700 transition-all duration-500">TOOLS I WORK WITH</h1>
                 <div className="border-b border-white/20 mb-5 w-100"></div>
                <div className="container mx-auto">
                  <div className="grid lg:grid-cols-4 grid-cols-1 items-center justify-center lg:gap-24 gap-10 w-full ">
