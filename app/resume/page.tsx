@@ -177,7 +177,7 @@ export default function Resume ()  {
                                 <h3 className="text-4xl font-bold">{experience.title}</h3>
                                 <div className="flex justify-end">
                                                     <a
-                                                        href="/Alexander_resume.pdf"
+                                                        href="/Alexander_Resume.pdf"
                                                         target="_blank"
                                                         rel="noopener noreferrer"
                                                         className="inline-block px-6 py-3 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition"
