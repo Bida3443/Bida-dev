@@ -263,8 +263,6 @@ export default function Resume ()  {
                     </div>  
                 </Tabs>
  
-
-
             </div>
         </motion.div>
     )
