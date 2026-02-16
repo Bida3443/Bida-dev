@@ -15,11 +15,11 @@ export default function Story ()  {
 
       {/* Glowing Animated Title */}
       <h1 className="relative text-3xl md:text-4xl font-bold tracking-wide animate-pulse drop-shadow-[0_0_20px_rgba(59,130,246,0.8)]">
-        The Tech Journey
+        The Tech Journeyvvv
       </h1>
 
       <p className="relative mt-4 text-sm opacity-80">
-        By BiDa
+        By BiDaccccc
       </p>
     </div>
   );
