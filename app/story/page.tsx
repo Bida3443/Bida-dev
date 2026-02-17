@@ -19,7 +19,7 @@ export default function Story ()  {
       </h1>
 
       <p className="relative mt-4 text-sm opacity-80">
-        By BiDaccccc
+        By BiDa
       </p>
     </div>
   );
