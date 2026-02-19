@@ -21,7 +21,9 @@ export default function Story ()  {
       <p className="relative mt-4 text-sm opacity-80">
         By BiDa
       </p>
+      <div>ffffff</div>
     </div>
+    
   );
     
 }
