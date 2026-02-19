@@ -46,14 +46,9 @@ export default function Story ()  {
       <div>Cover</div>
       <div>Page 1</div>
       <div>Page 2</div>
-    </HTMLFlipBook>
-  );
-}
 
 
-    return(
-         
-    <div className="relative h-full w-full flex flex-col items-center justify-center rounded-r-xl bg-linear-to-br from-blue-900 via-black to-black text-white overflow-hidden max-w-6xl mx-auto">
+      <div className="relative h-full w-full flex flex-col items-center justify-center rounded-r-xl bg-linear-to-br from-blue-900 via-black to-black text-white overflow-hidden max-w-6xl mx-auto">
 
       {/* Subtle light overlay */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.08),transparent_70%)]"></div>
@@ -68,6 +63,14 @@ export default function Story ()  {
       </p>
       <div>ffffff</div>
     </div>
+    </HTMLFlipBook>
+  
+
+
+
+
+         
+    
     
   );
     
