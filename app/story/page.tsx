@@ -5,6 +5,51 @@ import HTMLFlipBook from "react-pageflip";
 
 
 export default function Story ()  {
+//   const bookRef = useRef("top");
+
+//   const nextPage = () => {
+//     bookRef.current.pageFlip().flipNext();
+//   };
+                    
+//   const prevPage = () => {
+//     bookRef.current.pageFlip().flipPrev();
+//   };
+ const book = useRef<any>(null);
+
+  return (
+    <HTMLFlipBook
+      ref={book}
+      width={400}
+      height={600}
+      size="stretch"
+      minWidth={315}
+      maxWidth={1000}
+      minHeight={400}
+      maxHeight={1536}
+      maxShadowOpacity={0.5}
+      showCover
+      mobileScrollSupport
+      drawShadow
+      flippingTime={1000}
+      usePortrait
+      startZIndex={0}
+      autoSize
+      clickEventForward
+      useMouseEvents
+      swipeDistance={30}
+      showPageCorners
+      disableFlipByClick={false}
+      startPage={0}
+      className=""
+      style={{}}
+    >
+      <div>Cover</div>
+      <div>Page 1</div>
+      <div>Page 2</div>
+    </HTMLFlipBook>
+  );
+}
+
 
     return(
          
