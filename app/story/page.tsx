@@ -29,7 +29,7 @@ export default function StoryBook() {
 
   
  return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-black px-4 py-10 gap-6">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-black px-4 py-6 md:py-10 gap-6">
       
       {/* FLIPBOOK */}
       <FlipBook
