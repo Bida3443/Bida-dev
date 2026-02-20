@@ -47,7 +47,7 @@ export default function StoryBook() {
           <h1 className="text-3xl md:text-4xl text-center p-10 font-bold animate-pulse drop-shadow-[0_0_20px_rgba(59,130,246,0.9)]">
             The Tech Journey
           </h1>
-          <p className="mt-2 lg:leading-20 leading-10 text-3xl text-center md:text-4xl font-bold">The Code He Feared Became <br /> His <br /> Voice in a Journey <br /> Through Impossible Lines <br /> from <br /> Shadows to Syntax</p>
+          <p className="mt-1 lg:leading-20 leading-8 text-2xl text-center md:text-4xl font-bold">The Code He Feared Became <br /> His <br /> Voice in a Journey <br /> Through Impossible Lines <br /> from <br /> Shadows to Syntax</p>
         </div>
 
         {/* PAGE 1 */}
