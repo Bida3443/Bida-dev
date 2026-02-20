@@ -45,9 +45,9 @@ export default function StoryBook() {
         {/* COVER PAGE */}
         <div className="h-full flex flex-col items-center justify-center bg-white/10 text-white rounded-br-lg">
           <h1 className="text-3xl md:text-4xl text-center p-10 font-bold animate-pulse drop-shadow-[0_0_20px_rgba(59,130,246,0.9)]">
-            My Tech Journey
+            The Tech Journey
           </h1>
-          <p className="mt-2 text-sm text-center md:text-base">The Code He Feared Became His Voice</p>
+          <p className="mt-2 leading-20 text-4xl text-center md:text-3xl font-bold">The Code He Feared Became <br /> His <br /> Voice in a Journey <br /> Through Impossible Lines <br /> from <br /> Shadows to Syntax</p>
         </div>
 
         {/* PAGE 1 */}
