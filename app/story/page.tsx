@@ -18,22 +18,23 @@ export default function Story ()  {
 
   return (
 
-    
+    <div className="flex justify-center items-center min-h-screen bg-black px-4"> 
+    <div></div>
     <HTMLFlipBook
     
       ref={book}
-      width={400}
-      height={400}
+      width={550}
+      height={700}
       size="stretch"
-      minWidth={315}
-      maxWidth={1000}
-      minHeight={200}
-      maxHeight={536}
+      minWidth={280}
+      maxWidth={800}
+      minHeight={400}
+      maxHeight={900}
       maxShadowOpacity={0.5}
       showCover
       mobileScrollSupport
       drawShadow
-      flippingTime={1000}
+      flippingTime={800}
       usePortrait
       startZIndex={0}
       autoSize
@@ -43,7 +44,8 @@ export default function Story ()  {
       showPageCorners
       disableFlipByClick={false}
       startPage={0}
-      className=""
+      className="flex justify-center items-center min-h-screen bg-black"
+
       style={{}}
     >
       {/* <div className="flex justify-between">
@@ -77,7 +79,7 @@ export default function Story ()  {
       <div className="h-full flex items-center justify-center bg-white text-black p-6">Page 11</div>
 
     </HTMLFlipBook>
-  
+  </div>
 
   );
     
