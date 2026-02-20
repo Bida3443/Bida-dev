@@ -19,17 +19,17 @@ export default function Story ()  {
   return (
 
     <div className="flex justify-center items-center min-h-screen bg-black px-4"> 
-    <div></div>
+    
     <HTMLFlipBook
     
       ref={book}
-      width={550}
-      height={700}
-      size="stretch"
-      minWidth={280}
-      maxWidth={800}
-      minHeight={400}
-      maxHeight={900}
+      width={450}
+      height={600}
+      size="fixed"
+      minWidth={250}
+      maxWidth={600}
+      minHeight={350}
+      maxHeight={700}
       maxShadowOpacity={0.5}
       showCover
       mobileScrollSupport
@@ -44,8 +44,7 @@ export default function Story ()  {
       showPageCorners
       disableFlipByClick={false}
       startPage={0}
-      className="flex justify-center items-center min-h-screen bg-black"
-
+      className="shadow-2xl"
       style={{}}
     >
       {/* <div className="flex justify-between">
