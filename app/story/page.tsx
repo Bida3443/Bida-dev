@@ -44,10 +44,10 @@ export default function StoryBook() {
       >
         {/* COVER PAGE */}
         <div className="h-full flex flex-col items-center justify-center bg-white/10 text-white rounded-br-lg">
-          <h1 className="text-3xl md:text-4xl font-bold animate-pulse drop-shadow-[0_0_20px_rgba(59,130,246,0.9)]">
+          <h1 className="text-3xl md:text-4xl text-center p-10 font-bold animate-pulse drop-shadow-[0_0_20px_rgba(59,130,246,0.9)]">
             My Tech Journey
           </h1>
-          <p className="mt-2 text-sm md:text-base">By BiDa</p>
+          <p className="mt-2 text-sm text-center md:text-base">The Code He Feared Became His Voice</p>
         </div>
 
         {/* PAGE 1 */}
