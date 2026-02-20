@@ -29,7 +29,7 @@ export default function StoryBook() {
 
   
  return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-black px-4 py-6 md:py-10 gap-6">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-black px-4 -py-20 md:py-10 gap-6">
       
       {/* FLIPBOOK */}
       <FlipBook
@@ -43,7 +43,7 @@ export default function StoryBook() {
         className="shadow-2xl bg-transparent"
       >
         {/* COVER PAGE */}
-        <div className="h-full flex flex-col items-center justify-center bg-blue-900 text-white">
+        <div className="h-full flex flex-col items-center justify-center bg-white/10 text-white rounded-br-lg">
           <h1 className="text-3xl md:text-4xl font-bold animate-pulse drop-shadow-[0_0_20px_rgba(59,130,246,0.9)]">
             My Tech Journey
           </h1>
