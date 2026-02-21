@@ -43,7 +43,7 @@ export default function StoryBook() {
         className="shadow-2xl bg-transparent"
       >
         {/* COVER PAGE */}
-        <div className="h-full flex flex-col items-center justify-center bg-blue-700/30 text-white rounded-br-lg">
+        <div className="h-full flex flex-col items-center justify-center bg-blue-700/10 text-white rounded-br-lg">
           <h1 className="text-3xl md:text-5xl text-center p-10 font-bold animate-pulse drop-shadow-[0_0_20px_rgba(59,130,246,0.9)]">
             The Tech Journey
           </h1>
