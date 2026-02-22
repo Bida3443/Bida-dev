@@ -53,14 +53,15 @@ export default function StoryBook() {
 
         {/* PAGE 1 */}
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black">
-          <h1>INTRODUCTION</h1>
-          <p>My name is Alexander, and I'm a front-end developer focused on building clean,     responsive web applications using Next.js.
+          <h1 className="justify-center text-center text-3xl font-bold py-5">INTRODUCTION</h1>
+          <p className="leading-10 text-justify text-[20px]">My name is Alexander, A front-end developer focused on building clean, responsive web applications using Next.js. <br />
             A few years ago, I had absolutely no idea what tech was about. I saw websites, but I never imagined real people like me could build them. I even believed that programming was something abstract, something far beyond my reach. Anytime I saw someone writing code, I thought, “I can never learn this.</p>
         </div>
 
         {/* PAGE 2 */} 
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black">
-          I built my first React project and discovered the power of components and hooks.
+          <h1 className="justify-center text-center text-3xl font-bold py-5">THE TURNING POINT</h1>
+          <p className="leading-10 text-justify text-[20px]">Everything changed in the third year of my undergraduate studies when we had a compulsory course where every student had to learn a skill or trade. I registered for phone and laptop repair, but by chance or maybe destiny, I found myself placed in a web development class. I had zero background. No idea what the internet was made of, and no clue about HTML or CSS. The first few classes were tough. I complained every day. I felt frustrated and out of place.</p>
         </div>
 
         {/* PAGE 3 */}
