@@ -42,8 +42,9 @@ export default function StoryBook() {
         flippingTime={800}
         className="shadow-2xl bg-transparent"
       >
+        
         {/* COVER PAGE */}
-        <div className="h-full flex flex-col items-center justify-center bg-blue-700/10 text-white rounded-br-lg">
+        <div className="h-full flex flex-col items-center justify-center bg-blue-700/20 text-white rounded-br-lg">
           <h1 className="text-3xl md:text-5xl text-center p-10 font-bold animate-pulse drop-shadow-[0_0_20px_rgba(59,130,246,0.9)]">
             The Tech Journey
           </h1>
@@ -52,10 +53,12 @@ export default function StoryBook() {
 
         {/* PAGE 1 */}
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black">
-          I started learning frontend development with HTML, CSS, and JavaScript.
+          <h1>INTRODUCTION</h1>
+          <p>My name is Alexander, and I'm a front-end developer focused on building clean,     responsive web applications using Next.js.
+            A few years ago, I had absolutely no idea what tech was about. I saw websites, but I never imagined real people like me could build them. I even believed that programming was something abstract, something far beyond my reach. Anytime I saw someone writing code, I thought, “I can never learn this.</p>
         </div>
 
-        {/* PAGE 2 */}
+        {/* PAGE 2 */} 
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black">
           I built my first React project and discovered the power of components and hooks.
         </div>
