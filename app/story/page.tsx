@@ -54,28 +54,47 @@ export default function StoryBook() {
         {/* PAGE 1 */}
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
 
-         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_0_20px_rgba(0,0,0,0.2)]" />
-          <h1 className="justify-center text-center text-3xl font-bold py-5">INTRODUCTION</h1>
-          <p className="leading-10 text-justify text-[20px]">My name is Alexander, A front-end developer focused on building clean, responsive web applications using Next.js. <br />
+         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
+          <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">INTRODUCTION</h1>
+          <p className="leading-10 text-justify text-[20px] font-serif">My name is Alexander, A front-end developer focused on building clean, responsive web applications using Next.js. <br />
             A few years ago, I had absolutely no idea what tech was about. I saw websites, but I never imagined real people like me could build them. I even believed that programming was something abstract, something far beyond my reach. Anytime I saw someone writing code, I thought, “I can never learn this.</p>
         </div>
 
         {/* PAGE 2 */} 
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
-        
-         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_10px_0_20px_rgba(0,0,0,0.2)]" />
-          <h1 className="justify-center text-center text-3xl font-bold py-5">THE TURNING POINT</h1>
-          <p className="leading-10 text-justify text-[20px]">Everything changed in the third year of my undergraduate studies when we had a compulsory course where every student had to learn a skill or trade. I registered for phone and laptop repair, but by chance or maybe destiny, I found myself placed in a web development class. I had zero background. No idea what the internet was made of, and no clue about HTML or CSS. The first few classes were tough. I complained every day. I felt frustrated and out of place.</p>
+         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_10px_10_20px_rgba(0,0,0,0.2)]" />
+          <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">THE TURNING POINT</h1>
+          <p className="leading-10 text-justify text-[20px] font-serif">Everything changed in the third year of my undergraduate studies when we had a compulsory course where every student had to learn a skill or trade. I registered for phone and laptop repair, but by chance or maybe destiny, I found myself placed in a web development class. I had zero background. No idea what the internet was made of, and no clue about HTML or CSS. The first few classes were tough. I complained every day. I felt frustrated and out of place. <br /> But I kept attending.</p>
         </div>
 
         {/* PAGE 3 */}
-        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black">
-          I explored Next.js for building server-side rendered applications.
+        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
+
+         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
+          <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">EARLY SUPPORT AND GROWTH</h1>
+          <p className="leading-10 text-justify text-[20px] font-serif">Slowly, with the help of a friend who always assisted me with assignments, things began to make sense. As time went on, I met more people who were ahead of me, and their knowledge inspired me instead of intimidating me.</p>
         </div>
 
         {/* PAGE 4 */}
-        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black">
-          I am continuously improving my skills in frontend and backend technologies.
+        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
+         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_10px_10_20px_rgba(0,0,0,0.2)]" />
+          <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">THE CONFIDENCE MOMENT</h1>
+          <p className="leading-10 text-justify text-[20px] font-serif">After the course ended, something happened that changed everything. <br /> I went back to the HTML and CSS assignments we were given and for the first time, I solved all of them by myself, without asking anyone for help. That moment gave me confidence. It made me realize that this path wasn't impossible. I was capable.</p>
+        </div>
+
+        {/* PAGE 5 */}
+        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
+
+         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
+          <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">COMMITMENT TO LEARNING</h1>
+          <p className="leading-10 text-justify text-[20px] font-serif">From there, I started taking my learning seriously. <br /> I revisited the basics, explored resources online, followed like-minded people, and surrounded myself with friends who shared the same mindset. That environment helped me grow faster, and little by little, my interest turned into passion.</p>
+        </div>
+
+        {/* PAGE 6 */}
+        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
+         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_10px_10_20px_rgba(0,0,0,0.2)]" />
+          <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">DISCOVERING PURPOSE IN TECH</h1>
+          <p className="leading-10 text-justify text-[20px] font-serif">As I continued learning and doing my own research, tech opened my mind in ways I didn't expect. I discovered that what we build isn't just code, it's solutions. I started enjoying solving real problems, and since then, I have built several projects. It made me realize that tech can genuinely solve real-world challenges.</p>
         </div>
       </FlipBook>
 
