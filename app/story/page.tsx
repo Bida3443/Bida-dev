@@ -56,7 +56,9 @@ export default function StoryBook() {
 
          <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
           <h1 className="justify-center text-center lg:text-3xl text-2xl font-bold py-5 font-serif">INTRODUCTION</h1>
-          <p className="lg:leading-10 leading-5 text-justify lg:text-[20px] text-[10px] font-serif">My name is Alexander, A front-end developer focused on building clean, responsive web applications using Next.js. <br />
+          <p className="text-justify text-[15px] ">My name is Alexander, A front-end developer focused on building clean, responsive web applications using Next.js.</p>
+          <p className="lg:leading-10 leading-5 text-justify lg:text-[20px] text-[10px] font-serif"> 
+            
             A few years ago, I had absolutely no idea what tech was about. I saw websites, but I never imagined real people like me could build them. I even believed that programming was something abstract, something far beyond my reach. Anytime I saw someone writing code, I thought, “I can never learn this.</p>
 
             <span className="absolute bottom-4 left-6 text-sm text-gray-500">
@@ -136,18 +138,46 @@ export default function StoryBook() {
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
 
          <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
-          <h1 className="justify-center text-center lg:text-3xl text-2xl font-bold py-5 font-serif">CHALLENGES WITH ENVIRONMENT</h1>
-          <p className="lg:leading-10 text-justify leading-5 lg:text-[20px] text-[10px] font-serif">But the journey wasn't smooth. <br /> Electricity in my school area was always a major challenge. Many times, I moved from place to place just to find power so I could practice. It was draining, but I kept going because stagnation has always been my biggest fear.</p>  <span className="absolute bottom-4 left-6 text-sm text-gray-500">
-  7
+          <h1 className="justify-center text-center lg:text-3xl text-2xl font-bold py-5 font-serif">MENTORSHIP AND SKILL EXPANSION</h1>
+          <p className="lg:leading-10 text-justify leading-5 lg:text-[20px] text-[10px] font-serif">That was when I met a friend — a full-stack developer who understood how tech works in the real world. He had the same mindset as me, and working with him sped up my growth. With his help, I moved beyond the basics and learned JavaScript functionality, Tailwind CSS, TypeScript, and Next.js.</p>  <span className="absolute bottom-4 left-6 text-sm text-gray-500">
+  9
 </span>
         </div>
 
         {/* PAGE 10 */}
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
          <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_10px_10_20px_rgba(0,0,0,0.2)]" />
-          <h1 className="justify-center text-center lg:text-3xl text-2xl font-bold py-5 font-serif">NYSC AND RESILIENCE</h1>
-          <p className="lg:leading-10 text-justify leading-5 lg:text-[20px] text-[10px] font-serif">During my National Youth Service, I even relocated to Osun State hoping for better electricity. Instead of improving, things became worse. The light situation was barely 5% out of 100. But even in that environment, I refused to stop.</p> <span className="absolute bottom-4 right-6 text-sm text-gray-500">
-  8
+          <h1 className="justify-center text-center lg:text-3xl text-2xl font-bold py-5 font-serif">BREAKING THROUGH JAVASCRIPT</h1>
+          <p className="lg:leading-10 text-justify leading-5 lg:text-[20px] text-[10px] font-serif">Before I met him, I already knew HTML, CSS, and some JavaScript, but I couldn't apply JavaScript well. It felt like knowing A-Z but not being able to spell “communication.” He helped me connect everything together.</p> <span className="absolute bottom-4 right-6 text-sm text-gray-500">
+  10
+</span>
+        </div>
+
+                {/* PAGE 11 */}
+        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
+
+         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
+          <h1 className="justify-center text-center lg:text-3xl text-2xl font-bold py-5 font-serif">PERSISTENCE DESPITE CONDITIONS</h1>
+          <p className="lg:leading-10 text-justify leading-5 lg:text-[20px] text-[10px] font-serif">The environment was tough — poor electricity, terrible network — but we kept moving. We tried different networks, moved around to find stable power, and even found places to work just to stay consistent. Those challenges didn't stop us; they taught us how to keep going regardless of the situation. <br /> Through all this, I still built projects. I even started an ongoing project right there in that difficult environment.</p>  <span className="absolute bottom-4 left-6 text-sm text-gray-500">
+  11
+</span>
+        </div>
+
+        {/* PAGE 12 */}
+        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
+         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_10px_10_20px_rgba(0,0,0,0.2)]" />
+          <h1 className="justify-center text-center lg:text-3xl text-2xl font-bold py-5 font-serif">INNER STRUGGLES AND CORE LESSON</h1>
+          <p className="lg:leading-10 text-justify leading-5 lg:text-[20px] text-[10px] font-serif">Sometimes I felt bad about the situation — exhausted, discouraged, and sorry for myself. But I always reminded myself that giving up was never an option. All those challenges taught me one big lesson: <br /> Environment matters, but resilience matters more.</p> <span className="absolute bottom-4 right-6 text-sm text-gray-500">
+  12
+</span>
+        </div>
+        {/* PAGE 13 */}
+        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
+
+         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
+          <h1 className="justify-center text-center lg:text-3xl text-2xl font-bold py-5 font-serif">WHERE I STAND TODAY</h1>
+          <p className="lg:leading-10 text-justify leading-5 lg:text-[20px] text-[10px] font-serif">These experiences built in me the mindset, discipline, and resilience I carry into tech today.</p>  <span className="absolute bottom-4 left-6 text-sm text-gray-500">
+  13      
 </span>
         </div>
 
