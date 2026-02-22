@@ -55,9 +55,13 @@ export default function StoryBook() {
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
 
          <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
-          <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">INTRODUCTION</h1>
-          <p className="leading-10 text-justify text-[20px] font-serif">My name is Alexander, A front-end developer focused on building clean, responsive web applications using Next.js. <br />
+          <h1 className="justify-center text-center lg:text-3xl text-2xl font-bold py-5 font-serif">INTRODUCTION</h1>
+          <p className="leading-10 text-justify lg:text-[20px] text-[10px] font-serif">My name is Alexander, A front-end developer focused on building clean, responsive web applications using Next.js. <br />
             A few years ago, I had absolutely no idea what tech was about. I saw websites, but I never imagined real people like me could build them. I even believed that programming was something abstract, something far beyond my reach. Anytime I saw someone writing code, I thought, “I can never learn this.</p>
+
+            <span className="absolute bottom-4 left-6 text-sm text-gray-500">
+  1
+</span>
         </div>
 
         {/* PAGE 2 */} 
@@ -65,6 +69,10 @@ export default function StoryBook() {
          <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_10px_10_20px_rgba(0,0,0,0.2)]" />
           <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">THE TURNING POINT</h1>
           <p className="leading-10 text-justify text-[20px] font-serif">Everything changed in the third year of my undergraduate studies when we had a compulsory course where every student had to learn a skill or trade. I registered for phone and laptop repair, but by chance or maybe destiny, I found myself placed in a web development class. I had zero background. No idea what the internet was made of, and no clue about HTML or CSS. The first few classes were tough. I complained every day. I felt frustrated and out of place. <br /> But I kept attending.</p>
+          <span className="absolute bottom-4 right-6 text-sm text-gray-500">
+  2
+</span>
+
         </div>
 
         {/* PAGE 3 */}
@@ -72,14 +80,18 @@ export default function StoryBook() {
 
          <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
           <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">EARLY SUPPORT AND GROWTH</h1>
-          <p className="leading-10 text-justify text-[20px] font-serif">Slowly, with the help of a friend who always assisted me with assignments, things began to make sense. As time went on, I met more people who were ahead of me, and their knowledge inspired me instead of intimidating me.</p>
+          <p className="leading-10 text-justify text-[20px] font-serif">Slowly, with the help of a friend who always assisted me with assignments, things began to make sense. As time went on, I met more people who were ahead of me, and their knowledge inspired me instead of intimidating me.</p>  <span className="absolute bottom-4 left-6 text-sm text-gray-500">
+  3
+</span>
         </div>
 
         {/* PAGE 4 */}
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
          <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_10px_10_20px_rgba(0,0,0,0.2)]" />
           <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">THE CONFIDENCE MOMENT</h1>
-          <p className="leading-10 text-justify text-[20px] font-serif">After the course ended, something happened that changed everything. <br /> I went back to the HTML and CSS assignments we were given and for the first time, I solved all of them by myself, without asking anyone for help. That moment gave me confidence. It made me realize that this path wasn't impossible. I was capable.</p>
+          <p className="leading-10 text-justify text-[20px] font-serif">After the course ended, something happened that changed everything. <br /> I went back to the HTML and CSS assignments we were given and for the first time, I solved all of them by myself, without asking anyone for help. That moment gave me confidence. It made me realize that this path wasn't impossible. I was capable.</p> <span className="absolute bottom-4 right-6 text-sm text-gray-500">
+  4
+</span>
         </div>
 
         {/* PAGE 5 */}
@@ -87,14 +99,18 @@ export default function StoryBook() {
 
          <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
           <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">COMMITMENT TO LEARNING</h1>
-          <p className="leading-10 text-justify text-[20px] font-serif">From there, I started taking my learning seriously. <br /> I revisited the basics, explored resources online, followed like-minded people, and surrounded myself with friends who shared the same mindset. That environment helped me grow faster, and little by little, my interest turned into passion.</p>
+          <p className="leading-10 text-justify text-[20px] font-serif">From there, I started taking my learning seriously. <br /> I revisited the basics, explored resources online, followed like-minded people, and surrounded myself with friends who shared the same mindset. That environment helped me grow faster, and little by little, my interest turned into passion.</p> <span className="absolute bottom-4 left-6 text-sm text-gray-500">
+  5
+</span>
         </div>
 
         {/* PAGE 6 */}
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
          <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_10px_10_20px_rgba(0,0,0,0.2)]" />
           <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">DISCOVERING PURPOSE IN TECH</h1>
-          <p className="leading-10 text-justify text-[20px] font-serif">As I continued learning and doing my own research, tech opened my mind in ways I didn't expect. I discovered that what we build isn't just code, it's solutions. I started enjoying solving real problems, and since then, I have built several projects. It made me realize that tech can genuinely solve real-world challenges.</p>
+          <p className="leading-10 text-justify text-[20px] font-serif">As I continued learning and doing my own research, tech opened my mind in ways I didn't expect. I discovered that what we build isn't just code, it's solutions. I started enjoying solving real problems, and since then, I have built several projects. It made me realize that tech can genuinely solve real-world challenges.</p> <span className="absolute bottom-4 right-6 text-sm text-gray-500">
+  6
+</span>
         </div>
 
         {/* PAGE 7 */}
@@ -102,14 +118,37 @@ export default function StoryBook() {
 
          <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
           <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">CHALLENGES WITH ENVIRONMENT</h1>
-          <p className="leading-10 text-justify text-[20px] font-serif">But the journey wasn't smooth. <br /> Electricity in my school area was always a major challenge. Many times, I moved from place to place just to find power so I could practice. It was draining, but I kept going because stagnation has always been my biggest fear.</p>
+          <p className="leading-10 text-justify text-[20px] font-serif">But the journey wasn't smooth. <br /> Electricity in my school area was always a major challenge. Many times, I moved from place to place just to find power so I could practice. It was draining, but I kept going because stagnation has always been my biggest fear.</p>  <span className="absolute bottom-4 left-6 text-sm text-gray-500">
+  7
+</span>
         </div>
 
         {/* PAGE 8 */}
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
          <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_10px_10_20px_rgba(0,0,0,0.2)]" />
           <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">NYSC AND RESILIENCE</h1>
-          <p className="leading-10 text-justify text-[20px] font-serif">During my National Yourth Service Corps, I even relocated to Osun State hoping for better electricity. Instead of improving, things became worse. The light situation was barely 5% out of 100. But even in that environment, I refused to stop.</p>
+          <p className="leading-10 text-justify text-[20px] font-serif">During my National Youth Service, I even relocated to Osun State hoping for better electricity. Instead of improving, things became worse. The light situation was barely 5% out of 100. But even in that environment, I refused to stop.</p> <span className="absolute bottom-4 right-6 text-sm text-gray-500">
+  8
+</span>
+        </div>
+
+        {/* PAGE 9 */}
+        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
+
+         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
+          <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">CHALLENGES WITH ENVIRONMENT</h1>
+          <p className="leading-10 text-justify text-[20px] font-serif">But the journey wasn't smooth. <br /> Electricity in my school area was always a major challenge. Many times, I moved from place to place just to find power so I could practice. It was draining, but I kept going because stagnation has always been my biggest fear.</p>  <span className="absolute bottom-4 left-6 text-sm text-gray-500">
+  7
+</span>
+        </div>
+
+        {/* PAGE 10 */}
+        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
+         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_10px_10_20px_rgba(0,0,0,0.2)]" />
+          <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">NYSC AND RESILIENCE</h1>
+          <p className="leading-10 text-justify text-[20px] font-serif">During my National Youth Service, I even relocated to Osun State hoping for better electricity. Instead of improving, things became worse. The light situation was barely 5% out of 100. But even in that environment, I refused to stop.</p> <span className="absolute bottom-4 right-6 text-sm text-gray-500">
+  8
+</span>
         </div>
 
       </FlipBook>
