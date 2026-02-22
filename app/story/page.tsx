@@ -96,7 +96,25 @@ export default function StoryBook() {
           <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">DISCOVERING PURPOSE IN TECH</h1>
           <p className="leading-10 text-justify text-[20px] font-serif">As I continued learning and doing my own research, tech opened my mind in ways I didn't expect. I discovered that what we build isn't just code, it's solutions. I started enjoying solving real problems, and since then, I have built several projects. It made me realize that tech can genuinely solve real-world challenges.</p>
         </div>
+
+        {/* PAGE 7 */}
+        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
+
+         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
+          <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">CHALLENGES WITH ENVIRONMENT</h1>
+          <p className="leading-10 text-justify text-[20px] font-serif">But the journey wasn't smooth. <br /> Electricity in my school area was always a major challenge. Many times, I moved from place to place just to find power so I could practice. It was draining, but I kept going because stagnation has always been my biggest fear.</p>
+        </div>
+
+        {/* PAGE 8 */}
+        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
+         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_10px_10_20px_rgba(0,0,0,0.2)]" />
+          <h1 className="justify-center text-center text-3xl font-bold py-5 font-serif">NYSC AND RESILIENCE</h1>
+          <p className="leading-10 text-justify text-[20px] font-serif">During my National Yourth Service Corps, I even relocated to Osun State hoping for better electricity. Instead of improving, things became worse. The light situation was barely 5% out of 100. But even in that environment, I refused to stop.</p>
+        </div>
+
       </FlipBook>
+
+
 
       {/* NAVIGATION BUTTONS */}
       <div className="flex gap-4">
