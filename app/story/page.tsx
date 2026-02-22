@@ -56,7 +56,7 @@ export default function StoryBook() {
 
          <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
           <h1 className="justify-center text-center lg:text-3xl text-2xl font-bold py-5 font-serif">INTRODUCTION</h1>
-          <p className="leading-10 text-justify lg:text-[20px] text-[10px] font-serif">My name is Alexander, A front-end developer focused on building clean, responsive web applications using Next.js. <br />
+          <p className="lg:leading-10 leading-5 text-justify lg:text-[20px] text-[10px] font-serif">My name is Alexander, A front-end developer focused on building clean, responsive web applications using Next.js. <br />
             A few years ago, I had absolutely no idea what tech was about. I saw websites, but I never imagined real people like me could build them. I even believed that programming was something abstract, something far beyond my reach. Anytime I saw someone writing code, I thought, “I can never learn this.</p>
 
             <span className="absolute bottom-4 left-6 text-sm text-gray-500">
