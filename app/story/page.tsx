@@ -112,7 +112,7 @@ export default function StoryBook() {
          <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_10px_10_20px_rgba(0,0,0,0.2)]" />
           <h1 className="justify-center text-center lg:text-3xl text-2xl font-bold py-5 font-serif">DISCOVERING PURPOSE IN TECH</h1>
           <p className="lg:leading-10 text-justify leading-5 lg:text-[20px] text-[10px] font-serif">As I continued learning and doing my own research, tech opened my mind in ways I didn't expect. I discovered that what we build isn't just code, it's solutions. I started enjoying solving real problems, and since then, I have built several projects. It made me realize that tech can genuinely solve real-world challenges.</p> <span className="absolute bottom-4 right-6 text-sm text-gray-500">
-  63
+  6
 </span>
         </div>
 
