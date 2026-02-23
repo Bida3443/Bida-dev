@@ -172,6 +172,7 @@ export default function StoryBook() {
   12
 </span>
         </div>
+
         {/* PAGE 13 */}
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
 
@@ -180,6 +181,13 @@ export default function StoryBook() {
           <p className="lg:leading-10 text-justify leading-5 lg:text-[20px] text-[10px] font-serif">These experiences built in me the mindset, discipline, and resilience I carry into tech today.</p>  <span className="absolute bottom-4 lg:left-6 right-6 text-sm text-gray-500">
   13      
 </span>
+        </div>
+
+        <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
+        <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
+        <h1 className="justify-center text-center lg:text-3xl text-2xl font-bold py-5 font-bold"></h1>
+         
+      
         </div>
 
       </FlipBook>
