@@ -7,7 +7,7 @@ import HTMLFlipBook from "react-pageflip";
 const FlipBook = HTMLFlipBook as any;
 
 export default function StoryBook() {
-  const bookRef = useRef<any>(1);
+  const bookRef = useRef<any>(null);
 
   // Responsive width/height for desktop + mobile
   const [dimensions, setDimensions] = useState({ width: 400, height: 520 });
@@ -188,8 +188,6 @@ export default function StoryBook() {
         <h1 className="justify-center text-center lg:text-3xl text-2xl"></h1>
         
         
-         
-      
         </div>
 
       </FlipBook>
