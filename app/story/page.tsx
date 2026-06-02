@@ -185,7 +185,7 @@ export default function StoryBook() {
 
         <div className="h-full flex items-center justify-center p-6 bg-[#fdfcf8] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] text-black relative shadow-inner">
         <div className="absolute right-0 top-0 h-full w-6 bg-linear-to-l from-black/20 to-transparent pointer-events-none shadow-[inset_-10px_20_20px_rgba(0,0,0,0.2)]" />
-        <h1 className="justify-center font-extrabold text-center lg:text-3xl leading-25 items-center py-20 text-5xl">ALEXANDER <br /> THE <br /> GREAT </h1>
+        <h1 className="justify-center font-extrabold text-center lg:text-3xl leading-25 items-center py-5 text-5xl">ALEXANDER <br /> THE <br /> GREAT </h1>
         </div>
 
       </FlipBook>
