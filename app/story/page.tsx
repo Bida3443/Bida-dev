@@ -191,7 +191,6 @@ export default function StoryBook() {
       </FlipBook>
 
 
-
       {/* NAVIGATION BUTTONS */}
       <div className="flex gap-4">
         <button

@@ -32,7 +32,7 @@ const projects =[
         stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript,"}, {name:"API"}],
         Image: "/home.JPG",
         live: "https://k-dental-3b3i.vercel.app/",
-        githhub: "",
+        githhub: "https://github.com/Bida3443",
         
     },
     {
@@ -43,7 +43,7 @@ const projects =[
         stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript"}],
         Image: "/Inu.JPG",
         live: "https://hokkaidu-inu.vercel.app/",
-        githhub: "",
+        githhub: "https://github.com/Bida3443",
         
     },
     {
@@ -54,18 +54,40 @@ const projects =[
         stack: [{name: "WordPress,"}, {name: "Figma"}],
         Image: "/forest.png",
         live: "",
-        githhub: "",
+        githhub: "https://github.com/Bida3443",
         
     },
     {
         num: "04",
+        category: "Frontend & API",
+        title: "Rent9ja Website",
+        description: "I designed and developed Rent9ja, a modern rental platform that eliminates agent fees by connecting tenants directly with available apartments. Built using Next.js, TypeScript, and Tailwind CSS, the project solves a real-world problem in the housing market by making rental listings more accessible, transparent, and user-friendly. The platform features a responsive interface, smooth navigation, and optimized performance across devices.",
+        stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript"}],
+        Image: "/Rent9ja.png",
+        live: "https://rent9ja-navy.vercel.app/",
+        githhub: "https://github.com/Bida3443",
+        
+    },
+    {
+        num: "05",
+        category: "Frontend",
+        title: "Forest Products",
+        description: "I designed and developed a responsive web platform for the Forest Products Development and Utilization Department (FPD&U), showcasing its research activities, services, forest products, and agricultural produce. Built with Next.js, TypeScript, and Tailwind CSS, the website emphasizes clean design, responsive layouts, and performance-driven development while providing users with an engaging way to explore the department's work and product offerings.",
+        stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript"}],
+        Image: "/Forestp.png",
+        live: "https://forest-products.vercel.app/",
+        githhub: "https://github.com/Bida3443",
+        
+    },
+    {
+        num: "06",
         category: "Frontend & API",
         title: "Portfolio Website",
         description: "I designed and developed my personal portfolio website to showcase my projects, technical skills, and professional journey. Built with Next.js and TypeScript, the platform reflects my approach to clean UI design, responsive development, and performance-focused frontend architecture",
         stack: [{name: "Html 5,"}, {name: "TailwindCss,"}, {name:"JavaScript,"}, {name:"NextJs,"},{name:"TyprScript"}],
         Image: "/portfolio.JPG",
         live: "https://bida-dev.vercel.app/",
-        githhub: "",
+        githhub: "https://github.com/Bida3443",
         
     },
 ]
